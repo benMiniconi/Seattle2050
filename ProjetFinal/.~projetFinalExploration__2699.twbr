@@ -1,0 +1,4300 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0320.1853                               -->
+<workbook source-build='2021.1.0 (20211.21.0320.1853)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='sourceDataSet' inline='true' name='federated.1gcgmsf1qbq6ot16xb6e41i9ysxs' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='sourceDataSet' name='textscan.1bcz51m0ephp4c13fdnap1lx1v8l'>
+            <connection class='textscan' directory='/Users/benjamindeplus/PyCharmProjects/Seattle2050/ProjetFinal' filename='sourceDataSet.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1bcz51m0ephp4c13fdnap1lx1v8l' name='sourceDataSet.csv' table='[sourceDataSet#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=';'>
+            <column datatype='integer' name='OSEBuildingID' ordinal='0' />
+            <column datatype='integer' name='DataYear' ordinal='1' />
+            <column datatype='string' name='BuildingType' ordinal='2' />
+            <column datatype='string' name='PrimaryPropertyType' ordinal='3' />
+            <column datatype='string' name='PropertyName' ordinal='4' />
+            <column datatype='integer' name='TaxParcelIdentificationNumber' ordinal='5' />
+            <column datatype='string' name='Location' ordinal='6' />
+            <column datatype='string' name='CouncilDistrictCode' ordinal='7' />
+            <column datatype='string' name='Neighborhood' ordinal='8' />
+            <column datatype='string' name='YearBuilt' ordinal='9' />
+            <column datatype='string' name='NumberofBuildings' ordinal='10' />
+            <column datatype='string' name='NumberofFloors' ordinal='11' />
+            <column datatype='integer' name='PropertyGFATotal' ordinal='12' />
+            <column datatype='string' name='PropertyGFAParking' ordinal='13' />
+            <column datatype='integer' name='PropertyGFABuilding(s)' ordinal='14' />
+            <column datatype='integer' name='ListOfAllPropertyUseTypes' ordinal='15' />
+            <column datatype='integer' name='LargestPropertyUseType' ordinal='16' />
+            <column datatype='integer' name='LargestPropertyUseTypeGFA' ordinal='17' />
+            <column datatype='integer' name='SecondLargestPropertyUseType' ordinal='18' />
+            <column datatype='integer' name='SecondLargestPropertyUseTypeGFA' ordinal='19' />
+            <column datatype='string' name='ThirdLargestPropertyUseType' ordinal='20' />
+            <column datatype='string' name='ThirdLargestPropertyUseTypeGFA' ordinal='21' />
+            <column datatype='string' name='YearsENERGYSTARCertified' ordinal='22' />
+            <column datatype='string' name='ENERGYSTARScore' ordinal='23' />
+            <column datatype='real' name='SiteEUI(kBtu/sf)' ordinal='24' />
+            <column datatype='real' name='SiteEUIWN(kBtu/sf)' ordinal='25' />
+            <column datatype='real' name='SourceEUI(kBtu/sf)' ordinal='26' />
+            <column datatype='real' name='SourceEUIWN(kBtu/sf)' ordinal='27' />
+            <column datatype='real' name='SiteEnergyUse(kBtu)' ordinal='28' />
+            <column datatype='real' name='SiteEnergyUseWN(kBtu)' ordinal='29' />
+            <column datatype='real' name='SteamUse(kBtu)' ordinal='30' />
+            <column datatype='real' name='Electricity(kWh)' ordinal='31' />
+            <column datatype='real' name='Electricity(kBtu)' ordinal='32' />
+            <column datatype='real' name='NaturalGas(therms)' ordinal='33' />
+            <column datatype='real' name='NaturalGas(kBtu)' ordinal='34' />
+            <column datatype='real' name='OtherFuelUse(kBtu)' ordinal='35' />
+            <column datatype='real' name='GHGEmissions(MetricTonsCO2e)' ordinal='36' />
+            <column datatype='real' name='GHGEmissionsIntensity(kgCO2e/ft2)' ordinal='37' />
+            <column datatype='real' name='DefaultData' ordinal='38' />
+            <column datatype='real' name='Comment' ordinal='39' />
+            <column datatype='real' name='ComplianceStatus' ordinal='40' />
+            <column datatype='real' name='Outlier' ordinal='41' />
+            <column datatype='real' name='2010 Census Tracts' ordinal='42' />
+            <column datatype='string' name='Seattle Police Department Micro Community Policing Plan Areas' ordinal='43' />
+            <column datatype='string' name='City Council Districts' ordinal='44' />
+            <column datatype='string' name='SPD Beats' ordinal='45' />
+            <column datatype='string' name='Zip Codes' ordinal='46' />
+            <column datatype='string' name='F48' ordinal='47' />
+            <column datatype='string' name='F49' ordinal='48' />
+            <column datatype='real' name='F50' ordinal='49' />
+            <column datatype='real' name='F51' ordinal='50' />
+            <column datatype='real' name='F52' ordinal='51' />
+            <column datatype='real' name='F53' ordinal='52' />
+            <column datatype='real' name='F54' ordinal='53' />
+            <column datatype='real' name='F55' ordinal='54' />
+            <column datatype='real' name='F56' ordinal='55' />
+            <column datatype='integer' name='F57' ordinal='56' />
+            <column datatype='integer' name='F58' ordinal='57' />
+            <column datatype='integer' name='F59' ordinal='58' />
+            <column datatype='real' name='F60' ordinal='59' />
+            <column datatype='real' name='F61' ordinal='60' />
+            <column datatype='integer' name='F62' ordinal='61' />
+            <column datatype='integer' name='F63' ordinal='62' />
+            <column datatype='real' name='F64' ordinal='63' />
+            <column datatype='real' name='F65' ordinal='64' />
+            <column datatype='string' name='F66' ordinal='65' />
+            <column datatype='integer' name='F67' ordinal='66' />
+            <column datatype='string' name='F68' ordinal='67' />
+            <column datatype='integer' name='F69' ordinal='68' />
+            <column datatype='integer' name='F70' ordinal='69' />
+            <column datatype='integer' name='F71' ordinal='70' />
+            <column datatype='string' name='F72' ordinal='71' />
+            <column datatype='integer' name='F73' ordinal='72' />
+            <column datatype='integer' name='F74' ordinal='73' />
+            <column datatype='string' name='Address' ordinal='74' />
+            <column datatype='string' name='City' ordinal='75' />
+            <column datatype='string' name='State' ordinal='76' />
+            <column datatype='string' name='ZipCode' ordinal='77' />
+            <column datatype='string' name='Latitude' ordinal='78' />
+            <column datatype='string' name='Longitude' ordinal='79' />
+            <column datatype='string' name='Comments' ordinal='80' />
+            <column datatype='string' name='TotalGHGEmissions' ordinal='81' />
+            <column datatype='real' name='GHGEmissionsIntensity' ordinal='82' />
+            <column datatype='string' name='File Paths' ordinal='83' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1bcz51m0ephp4c13fdnap1lx1v8l' name='sourceDataSet.csv' table='[sourceDataSet#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=';'>
+            <column datatype='integer' name='OSEBuildingID' ordinal='0' />
+            <column datatype='integer' name='DataYear' ordinal='1' />
+            <column datatype='string' name='BuildingType' ordinal='2' />
+            <column datatype='string' name='PrimaryPropertyType' ordinal='3' />
+            <column datatype='string' name='PropertyName' ordinal='4' />
+            <column datatype='integer' name='TaxParcelIdentificationNumber' ordinal='5' />
+            <column datatype='string' name='Location' ordinal='6' />
+            <column datatype='string' name='CouncilDistrictCode' ordinal='7' />
+            <column datatype='string' name='Neighborhood' ordinal='8' />
+            <column datatype='string' name='YearBuilt' ordinal='9' />
+            <column datatype='string' name='NumberofBuildings' ordinal='10' />
+            <column datatype='string' name='NumberofFloors' ordinal='11' />
+            <column datatype='integer' name='PropertyGFATotal' ordinal='12' />
+            <column datatype='string' name='PropertyGFAParking' ordinal='13' />
+            <column datatype='integer' name='PropertyGFABuilding(s)' ordinal='14' />
+            <column datatype='integer' name='ListOfAllPropertyUseTypes' ordinal='15' />
+            <column datatype='integer' name='LargestPropertyUseType' ordinal='16' />
+            <column datatype='integer' name='LargestPropertyUseTypeGFA' ordinal='17' />
+            <column datatype='integer' name='SecondLargestPropertyUseType' ordinal='18' />
+            <column datatype='integer' name='SecondLargestPropertyUseTypeGFA' ordinal='19' />
+            <column datatype='string' name='ThirdLargestPropertyUseType' ordinal='20' />
+            <column datatype='string' name='ThirdLargestPropertyUseTypeGFA' ordinal='21' />
+            <column datatype='string' name='YearsENERGYSTARCertified' ordinal='22' />
+            <column datatype='string' name='ENERGYSTARScore' ordinal='23' />
+            <column datatype='real' name='SiteEUI(kBtu/sf)' ordinal='24' />
+            <column datatype='real' name='SiteEUIWN(kBtu/sf)' ordinal='25' />
+            <column datatype='real' name='SourceEUI(kBtu/sf)' ordinal='26' />
+            <column datatype='real' name='SourceEUIWN(kBtu/sf)' ordinal='27' />
+            <column datatype='real' name='SiteEnergyUse(kBtu)' ordinal='28' />
+            <column datatype='real' name='SiteEnergyUseWN(kBtu)' ordinal='29' />
+            <column datatype='real' name='SteamUse(kBtu)' ordinal='30' />
+            <column datatype='real' name='Electricity(kWh)' ordinal='31' />
+            <column datatype='real' name='Electricity(kBtu)' ordinal='32' />
+            <column datatype='real' name='NaturalGas(therms)' ordinal='33' />
+            <column datatype='real' name='NaturalGas(kBtu)' ordinal='34' />
+            <column datatype='real' name='OtherFuelUse(kBtu)' ordinal='35' />
+            <column datatype='real' name='GHGEmissions(MetricTonsCO2e)' ordinal='36' />
+            <column datatype='real' name='GHGEmissionsIntensity(kgCO2e/ft2)' ordinal='37' />
+            <column datatype='real' name='DefaultData' ordinal='38' />
+            <column datatype='real' name='Comment' ordinal='39' />
+            <column datatype='real' name='ComplianceStatus' ordinal='40' />
+            <column datatype='real' name='Outlier' ordinal='41' />
+            <column datatype='real' name='2010 Census Tracts' ordinal='42' />
+            <column datatype='string' name='Seattle Police Department Micro Community Policing Plan Areas' ordinal='43' />
+            <column datatype='string' name='City Council Districts' ordinal='44' />
+            <column datatype='string' name='SPD Beats' ordinal='45' />
+            <column datatype='string' name='Zip Codes' ordinal='46' />
+            <column datatype='string' name='F48' ordinal='47' />
+            <column datatype='string' name='F49' ordinal='48' />
+            <column datatype='real' name='F50' ordinal='49' />
+            <column datatype='real' name='F51' ordinal='50' />
+            <column datatype='real' name='F52' ordinal='51' />
+            <column datatype='real' name='F53' ordinal='52' />
+            <column datatype='real' name='F54' ordinal='53' />
+            <column datatype='real' name='F55' ordinal='54' />
+            <column datatype='real' name='F56' ordinal='55' />
+            <column datatype='integer' name='F57' ordinal='56' />
+            <column datatype='integer' name='F58' ordinal='57' />
+            <column datatype='integer' name='F59' ordinal='58' />
+            <column datatype='real' name='F60' ordinal='59' />
+            <column datatype='real' name='F61' ordinal='60' />
+            <column datatype='integer' name='F62' ordinal='61' />
+            <column datatype='integer' name='F63' ordinal='62' />
+            <column datatype='real' name='F64' ordinal='63' />
+            <column datatype='real' name='F65' ordinal='64' />
+            <column datatype='string' name='F66' ordinal='65' />
+            <column datatype='integer' name='F67' ordinal='66' />
+            <column datatype='string' name='F68' ordinal='67' />
+            <column datatype='integer' name='F69' ordinal='68' />
+            <column datatype='integer' name='F70' ordinal='69' />
+            <column datatype='integer' name='F71' ordinal='70' />
+            <column datatype='string' name='F72' ordinal='71' />
+            <column datatype='integer' name='F73' ordinal='72' />
+            <column datatype='integer' name='F74' ordinal='73' />
+            <column datatype='string' name='Address' ordinal='74' />
+            <column datatype='string' name='City' ordinal='75' />
+            <column datatype='string' name='State' ordinal='76' />
+            <column datatype='string' name='ZipCode' ordinal='77' />
+            <column datatype='string' name='Latitude' ordinal='78' />
+            <column datatype='string' name='Longitude' ordinal='79' />
+            <column datatype='string' name='Comments' ordinal='80' />
+            <column datatype='string' name='TotalGHGEmissions' ordinal='81' />
+            <column datatype='real' name='GHGEmissionsIntensity' ordinal='82' />
+            <column datatype='string' name='File Paths' ordinal='83' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OSEBuildingID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OSEBuildingID]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>OSEBuildingID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DataYear</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DataYear]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>DataYear</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BuildingType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BuildingType]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>BuildingType</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PrimaryPropertyType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PrimaryPropertyType]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>PrimaryPropertyType</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PropertyName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PropertyName]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>PropertyName</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TaxParcelIdentificationNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TaxParcelIdentificationNumber]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>TaxParcelIdentificationNumber</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CouncilDistrictCode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CouncilDistrictCode]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>CouncilDistrictCode</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neighborhood</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Neighborhood]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Neighborhood</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YearBuilt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[YearBuilt]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>YearBuilt</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumberofBuildings</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NumberofBuildings]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>NumberofBuildings</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumberofFloors</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NumberofFloors]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>NumberofFloors</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PropertyGFATotal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PropertyGFATotal]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>PropertyGFATotal</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PropertyGFAParking</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PropertyGFAParking]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>PropertyGFAParking</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PropertyGFABuilding(s)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PropertyGFABuilding(s)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>PropertyGFABuilding(s)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ListOfAllPropertyUseTypes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ListOfAllPropertyUseTypes]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>ListOfAllPropertyUseTypes</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LargestPropertyUseType</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LargestPropertyUseType]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>LargestPropertyUseType</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LargestPropertyUseTypeGFA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LargestPropertyUseTypeGFA]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>LargestPropertyUseTypeGFA</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SecondLargestPropertyUseType</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SecondLargestPropertyUseType]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>SecondLargestPropertyUseType</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SecondLargestPropertyUseTypeGFA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SecondLargestPropertyUseTypeGFA]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>SecondLargestPropertyUseTypeGFA</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ThirdLargestPropertyUseType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ThirdLargestPropertyUseType]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>ThirdLargestPropertyUseType</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ThirdLargestPropertyUseTypeGFA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ThirdLargestPropertyUseTypeGFA]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>ThirdLargestPropertyUseTypeGFA</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YearsENERGYSTARCertified</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[YearsENERGYSTARCertified]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>YearsENERGYSTARCertified</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENERGYSTARScore</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ENERGYSTARScore]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>ENERGYSTARScore</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SiteEUI(kBtu/sf)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SiteEUI(kBtu/sf)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>SiteEUI(kBtu/sf)</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SiteEUIWN(kBtu/sf)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SiteEUIWN(kBtu/sf)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>SiteEUIWN(kBtu/sf)</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SourceEUI(kBtu/sf)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SourceEUI(kBtu/sf)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>SourceEUI(kBtu/sf)</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SourceEUIWN(kBtu/sf)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SourceEUIWN(kBtu/sf)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>SourceEUIWN(kBtu/sf)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SiteEnergyUse(kBtu)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SiteEnergyUse(kBtu)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>SiteEnergyUse(kBtu)</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SiteEnergyUseWN(kBtu)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SiteEnergyUseWN(kBtu)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>SiteEnergyUseWN(kBtu)</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SteamUse(kBtu)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SteamUse(kBtu)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>SteamUse(kBtu)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity(kWh)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity(kWh)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Electricity(kWh)</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity(kBtu)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Electricity(kBtu)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Electricity(kBtu)</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NaturalGas(therms)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NaturalGas(therms)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>NaturalGas(therms)</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NaturalGas(kBtu)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NaturalGas(kBtu)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>NaturalGas(kBtu)</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OtherFuelUse(kBtu)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OtherFuelUse(kBtu)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>OtherFuelUse(kBtu)</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GHGEmissions(MetricTonsCO2e)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GHGEmissions(MetricTonsCO2e)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>GHGEmissions(MetricTonsCO2e)</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GHGEmissionsIntensity(kgCO2e/ft2)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GHGEmissionsIntensity(kgCO2e/ft2)]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>GHGEmissionsIntensity(kgCO2e/ft2)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefaultData</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DefaultData]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>DefaultData</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Comment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Comment]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Comment</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ComplianceStatus</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ComplianceStatus]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>ComplianceStatus</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Outlier</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Outlier]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Outlier</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2010 Census Tracts</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[2010 Census Tracts]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>2010 Census Tracts</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Seattle Police Department Micro Community Policing Plan Areas</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Seattle Police Department Micro Community Policing Plan Areas]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Seattle Police Department Micro Community Policing Plan Areas</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City Council Districts</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City Council Districts]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>City Council Districts</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SPD Beats</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SPD Beats]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>SPD Beats</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zip Codes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Zip Codes]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Zip Codes</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F48</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F48]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F48</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F49</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F49]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F49</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F50</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F50]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F50</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F51</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F51]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F51</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F52</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F52]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F52</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F53</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F53]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F53</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F54</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F54]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F54</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F55</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F55]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F55</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F56</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F56]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F56</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F57</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F57]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F57</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F58</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F58]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F58</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F59</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F59]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F59</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F60</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F60]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F60</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F61</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F61]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F61</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F62</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F62]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F62</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F63</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F63]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F63</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F64</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F64]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F64</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F65</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F65]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F65</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F66</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F66]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F66</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F67</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F67]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F67</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F68</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F68]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F68</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F69</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F69]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F69</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F70</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F70]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F70</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F71</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F71]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F71</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F72</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F72]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F72</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F73</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F73]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F73</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F74</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F74]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>F74</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Address]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Address</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZipCode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ZipCode]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>ZipCode</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Comments</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Comments]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>Comments</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalGHGEmissions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TotalGHGEmissions]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>TotalGHGEmissions</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GHGEmissionsIntensity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GHGEmissionsIntensity]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>GHGEmissionsIntensity</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>File Paths</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[File Paths]</local-name>
+            <parent-name>[sourceDataSet.csv]</parent-name>
+            <remote-alias>File Paths</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Building Type' datatype='string' name='[BuildingType]' role='dimension' type='nominal' />
+      <column caption='CleanNeihborhour' datatype='string' name='[Calculation_189925269632499712]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='if REGEXP_MATCH([Neighborhood], &quot;&apos;human_address&apos;:&quot;)&#10;then REGEXP_REPLACE([Neighborhood], &quot;&apos;human_address&apos;:&quot;, &quot;match&quot;)&#10;ELSE [Neighborhood]&#10;END' />
+      </column>
+      <column caption='EnergyScoreInt' datatype='integer' name='[Calculation_212302528776482817]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if int([ENERGYSTARScore]) &gt; 0 &#10;then int([ENERGYSTARScore])&#10;ELSE&#10;0 &#10;END' />
+      </column>
+      <column datatype='string' name='[City Council Districts]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Compliance Status' datatype='real' name='[ComplianceStatus]' role='measure' type='quantitative' />
+      <column caption='Council District Code' datatype='string' name='[CouncilDistrictCode]' role='dimension' type='nominal' />
+      <column caption='Data Year' datatype='integer' name='[DataYear]' role='dimension' type='quantitative' />
+      <column caption='Default Data' datatype='real' name='[DefaultData]' role='measure' type='quantitative' />
+      <column caption='ENERGYSTAR Score' datatype='string' name='[ENERGYSTARScore]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Electricity(kWh)]' role='measure' type='quantitative' />
+      <column datatype='string' name='[EnergyScoreInt (groupe)]' role='dimension' type='ordinal'>
+        <calculation class='categorical-bin' column='[Calculation_212302528776482817]' new-bin='true'>
+          <bin default-name='false' value='&quot;0 à 10&quot;'>
+            <value>0</value>
+            <value>1</value>
+            <value>2</value>
+            <value>3</value>
+            <value>4</value>
+            <value>5</value>
+            <value>6</value>
+            <value>7</value>
+            <value>8</value>
+            <value>9</value>
+            <value>10</value>
+          </bin>
+          <bin default-name='false' value='&quot;10 à 20&quot;'>
+            <value>11</value>
+            <value>12</value>
+            <value>13</value>
+            <value>14</value>
+            <value>15</value>
+            <value>16</value>
+            <value>17</value>
+            <value>18</value>
+            <value>19</value>
+            <value>20</value>
+          </bin>
+          <bin default-name='false' value='&quot;20 à 30&quot;'>
+            <value>21</value>
+            <value>22</value>
+            <value>23</value>
+            <value>24</value>
+            <value>25</value>
+            <value>26</value>
+            <value>27</value>
+            <value>28</value>
+            <value>29</value>
+            <value>30</value>
+          </bin>
+          <bin default-name='false' value='&quot;30 à 40&quot;'>
+            <value>31</value>
+            <value>32</value>
+            <value>33</value>
+            <value>34</value>
+            <value>35</value>
+            <value>36</value>
+            <value>37</value>
+            <value>38</value>
+            <value>39</value>
+            <value>40</value>
+          </bin>
+          <bin default-name='false' value='&quot;40 à 50&quot;'>
+            <value>41</value>
+            <value>42</value>
+            <value>43</value>
+            <value>44</value>
+            <value>45</value>
+            <value>46</value>
+            <value>47</value>
+            <value>48</value>
+            <value>49</value>
+            <value>50</value>
+          </bin>
+          <bin default-name='false' value='&quot;50 à 60&quot;'>
+            <value>51</value>
+            <value>52</value>
+            <value>53</value>
+            <value>54</value>
+            <value>55</value>
+            <value>56</value>
+            <value>57</value>
+            <value>58</value>
+            <value>59</value>
+            <value>60</value>
+          </bin>
+          <bin default-name='false' value='&quot;60 à 70&quot;'>
+            <value>61</value>
+            <value>62</value>
+            <value>63</value>
+            <value>64</value>
+            <value>65</value>
+            <value>66</value>
+            <value>67</value>
+            <value>68</value>
+            <value>69</value>
+            <value>70</value>
+          </bin>
+          <bin default-name='false' value='&quot;70 à 80&quot;'>
+            <value>71</value>
+            <value>72</value>
+            <value>73</value>
+            <value>74</value>
+            <value>75</value>
+            <value>76</value>
+            <value>77</value>
+            <value>78</value>
+            <value>79</value>
+            <value>80</value>
+          </bin>
+          <bin default-name='false' value='&quot;80 à 90&quot;'>
+            <value>81</value>
+            <value>82</value>
+            <value>83</value>
+            <value>84</value>
+            <value>85</value>
+            <value>86</value>
+            <value>87</value>
+            <value>88</value>
+            <value>89</value>
+            <value>90</value>
+          </bin>
+          <bin default-name='false' value='&quot;90 à 100&quot;'>
+            <value>91</value>
+            <value>92</value>
+            <value>93</value>
+            <value>94</value>
+            <value>95</value>
+            <value>96</value>
+            <value>97</value>
+            <value>98</value>
+            <value>99</value>
+            <value>100</value>
+          </bin>
+          <bin default-name='false' value='&quot;Plus de 100&quot;'>
+            <value>984</value>
+            <value>1250</value>
+            <value>4051</value>
+            <value>4276</value>
+            <value>6633</value>
+            <value>10155</value>
+            <value>10292</value>
+            <value>10500</value>
+            <value>10736</value>
+            <value>11000</value>
+            <value>11084</value>
+            <value>11550</value>
+            <value>11600</value>
+            <value>11729</value>
+            <value>12100</value>
+            <value>12331</value>
+            <value>12640</value>
+            <value>12644</value>
+            <value>12806</value>
+            <value>13000</value>
+            <value>13175</value>
+            <value>13200</value>
+            <value>13364</value>
+            <value>13500</value>
+            <value>13600</value>
+            <value>13911</value>
+            <value>13940</value>
+            <value>13945</value>
+            <value>14000</value>
+            <value>14206</value>
+            <value>14269</value>
+            <value>14314</value>
+            <value>14400</value>
+            <value>14452</value>
+            <value>14585</value>
+            <value>15000</value>
+            <value>15300</value>
+            <value>15346</value>
+            <value>15364</value>
+            <value>15400</value>
+            <value>15524</value>
+            <value>15609</value>
+            <value>15667</value>
+            <value>15900</value>
+            <value>16000</value>
+            <value>16243</value>
+            <value>16480</value>
+            <value>16554</value>
+            <value>16766</value>
+            <value>16826</value>
+            <value>16838</value>
+            <value>16980</value>
+            <value>17026</value>
+            <value>17041</value>
+            <value>17164</value>
+            <value>17332</value>
+            <value>17334</value>
+            <value>17384</value>
+            <value>17422</value>
+            <value>17426</value>
+            <value>17514</value>
+            <value>17526</value>
+            <value>17650</value>
+            <value>17700</value>
+            <value>17822</value>
+            <value>18000</value>
+            <value>18075</value>
+            <value>18100</value>
+            <value>18186</value>
+            <value>18278</value>
+            <value>18364</value>
+            <value>18373</value>
+            <value>18396</value>
+            <value>18400</value>
+            <value>18581</value>
+            <value>18700</value>
+            <value>19034</value>
+            <value>19050</value>
+            <value>19120</value>
+            <value>19132</value>
+            <value>19183</value>
+            <value>19189</value>
+            <value>19200</value>
+            <value>19216</value>
+            <value>19232</value>
+            <value>19373</value>
+            <value>19386</value>
+            <value>19407</value>
+            <value>19430</value>
+            <value>19471</value>
+            <value>19500</value>
+            <value>19531</value>
+            <value>19542</value>
+            <value>19600</value>
+            <value>19749</value>
+            <value>19987</value>
+            <value>20000</value>
+            <value>20058</value>
+            <value>20106</value>
+            <value>20148</value>
+            <value>20183</value>
+            <value>20237</value>
+            <value>20261</value>
+            <value>20316</value>
+            <value>20356</value>
+            <value>20400</value>
+            <value>20434</value>
+            <value>20448</value>
+            <value>20475</value>
+            <value>20480</value>
+            <value>20517</value>
+            <value>20520</value>
+            <value>20529</value>
+            <value>20560</value>
+            <value>20565</value>
+            <value>20590</value>
+            <value>20600</value>
+            <value>20752</value>
+            <value>20809</value>
+            <value>20840</value>
+            <value>20930</value>
+            <value>20962</value>
+            <value>20996</value>
+            <value>21000</value>
+            <value>21050</value>
+            <value>21073</value>
+            <value>21107</value>
+            <value>21176</value>
+            <value>21312</value>
+            <value>21400</value>
+            <value>21454</value>
+            <value>21581</value>
+            <value>21600</value>
+            <value>21616</value>
+            <value>21700</value>
+            <value>21715</value>
+            <value>21780</value>
+            <value>21788</value>
+            <value>21790</value>
+            <value>21804</value>
+            <value>21815</value>
+            <value>21840</value>
+            <value>21841</value>
+            <value>21877</value>
+            <value>21888</value>
+            <value>21909</value>
+            <value>21990</value>
+            <value>21991</value>
+            <value>22000</value>
+            <value>22018</value>
+            <value>22050</value>
+            <value>22088</value>
+            <value>22093</value>
+            <value>22151</value>
+            <value>22176</value>
+            <value>22177</value>
+            <value>22218</value>
+            <value>22348</value>
+            <value>22364</value>
+            <value>22365</value>
+            <value>22392</value>
+            <value>22394</value>
+            <value>22625</value>
+            <value>22694</value>
+            <value>22729</value>
+            <value>22740</value>
+            <value>22777</value>
+            <value>22895</value>
+            <value>22898</value>
+            <value>22935</value>
+            <value>22962</value>
+            <value>22971</value>
+            <value>22984</value>
+            <value>22992</value>
+            <value>23000</value>
+            <value>23162</value>
+            <value>23193</value>
+            <value>23200</value>
+            <value>23204</value>
+            <value>23272</value>
+            <value>23320</value>
+            <value>23381</value>
+            <value>23419</value>
+            <value>23495</value>
+            <value>23529</value>
+            <value>23545</value>
+            <value>23553</value>
+            <value>23580</value>
+            <value>23620</value>
+            <value>23659</value>
+            <value>23829</value>
+            <value>23835</value>
+            <value>23840</value>
+            <value>23867</value>
+            <value>23927</value>
+            <value>24000</value>
+            <value>24084</value>
+            <value>24109</value>
+            <value>24111</value>
+            <value>24120</value>
+            <value>24169</value>
+            <value>24200</value>
+            <value>24224</value>
+            <value>24227</value>
+            <value>24249</value>
+            <value>24280</value>
+            <value>24288</value>
+            <value>24325</value>
+            <value>24329</value>
+            <value>24330</value>
+            <value>24435</value>
+            <value>24441</value>
+            <value>24459</value>
+            <value>24480</value>
+            <value>24520</value>
+            <value>24570</value>
+            <value>24696</value>
+            <value>24717</value>
+            <value>24809</value>
+            <value>24813</value>
+            <value>24838</value>
+            <value>24882</value>
+            <value>24914</value>
+            <value>24948</value>
+            <value>25000</value>
+            <value>25056</value>
+            <value>25076</value>
+            <value>25094</value>
+            <value>25096</value>
+            <value>25129</value>
+            <value>25144</value>
+            <value>25184</value>
+            <value>25288</value>
+            <value>25301</value>
+            <value>25368</value>
+            <value>25459</value>
+            <value>25490</value>
+            <value>25500</value>
+            <value>25525</value>
+            <value>25547</value>
+            <value>25562</value>
+            <value>25586</value>
+            <value>25649</value>
+            <value>25671</value>
+            <value>25765</value>
+            <value>25778</value>
+            <value>25800</value>
+            <value>25828</value>
+            <value>25859</value>
+            <value>25876</value>
+            <value>25883</value>
+            <value>25891</value>
+            <value>25898</value>
+            <value>25943</value>
+            <value>25946</value>
+            <value>25968</value>
+            <value>26000</value>
+            <value>26012</value>
+            <value>26044</value>
+            <value>26100</value>
+            <value>26112</value>
+            <value>26185</value>
+            <value>26195</value>
+            <value>26275</value>
+            <value>26282</value>
+            <value>26295</value>
+            <value>26386</value>
+            <value>26393</value>
+            <value>26407</value>
+            <value>26418</value>
+            <value>26450</value>
+            <value>26556</value>
+            <value>26568</value>
+            <value>26580</value>
+            <value>26941</value>
+            <value>27000</value>
+            <value>27005</value>
+            <value>27008</value>
+            <value>27035</value>
+            <value>27072</value>
+            <value>27118</value>
+            <value>27172</value>
+            <value>27176</value>
+            <value>27180</value>
+            <value>27272</value>
+            <value>27291</value>
+            <value>27296</value>
+            <value>27447</value>
+            <value>27510</value>
+            <value>27600</value>
+            <value>27636</value>
+            <value>27653</value>
+            <value>27656</value>
+            <value>27791</value>
+            <value>27849</value>
+            <value>27892</value>
+            <value>27993</value>
+            <value>28000</value>
+            <value>28026</value>
+            <value>28038</value>
+            <value>28176</value>
+            <value>28196</value>
+            <value>28197</value>
+            <value>28227</value>
+            <value>28235</value>
+            <value>28289</value>
+            <value>28293</value>
+            <value>28303</value>
+            <value>28356</value>
+            <value>28400</value>
+            <value>28453</value>
+            <value>28500</value>
+            <value>28543</value>
+            <value>28567</value>
+            <value>28734</value>
+            <value>28735</value>
+            <value>28800</value>
+            <value>28970</value>
+            <value>29001</value>
+            <value>29100</value>
+            <value>29255</value>
+            <value>29258</value>
+            <value>29302</value>
+            <value>29353</value>
+            <value>29370</value>
+            <value>29392</value>
+            <value>29394</value>
+            <value>29513</value>
+            <value>29527</value>
+            <value>29551</value>
+            <value>29618</value>
+            <value>29640</value>
+            <value>29647</value>
+            <value>29720</value>
+            <value>29788</value>
+            <value>29880</value>
+            <value>29914</value>
+            <value>30000</value>
+            <value>30044</value>
+            <value>30095</value>
+            <value>30189</value>
+            <value>30200</value>
+            <value>30216</value>
+            <value>30230</value>
+            <value>30236</value>
+            <value>30480</value>
+            <value>30716</value>
+            <value>30720</value>
+            <value>30786</value>
+            <value>30799</value>
+            <value>30810</value>
+            <value>30824</value>
+            <value>30889</value>
+            <value>30899</value>
+            <value>30920</value>
+            <value>30932</value>
+            <value>30933</value>
+            <value>31184</value>
+            <value>31325</value>
+            <value>31379</value>
+            <value>31400</value>
+            <value>31455</value>
+            <value>31570</value>
+            <value>31659</value>
+            <value>31800</value>
+            <value>31932</value>
+            <value>31945</value>
+            <value>31979</value>
+            <value>32000</value>
+            <value>32001</value>
+            <value>32039</value>
+            <value>32098</value>
+            <value>32170</value>
+            <value>32200</value>
+            <value>32205</value>
+            <value>32393</value>
+            <value>32432</value>
+            <value>32471</value>
+            <value>32510</value>
+            <value>32536</value>
+            <value>32569</value>
+            <value>32580</value>
+            <value>32610</value>
+            <value>32626</value>
+            <value>32676</value>
+            <value>32753</value>
+            <value>32880</value>
+            <value>33000</value>
+            <value>33176</value>
+            <value>33332</value>
+            <value>33385</value>
+            <value>33695</value>
+            <value>33705</value>
+            <value>33848</value>
+            <value>33852</value>
+            <value>33869</value>
+            <value>33892</value>
+            <value>33997</value>
+            <value>34000</value>
+            <value>34038</value>
+            <value>34137</value>
+            <value>34160</value>
+            <value>34165</value>
+            <value>34206</value>
+            <value>34368</value>
+            <value>34425</value>
+            <value>34584</value>
+            <value>34629</value>
+            <value>34647</value>
+            <value>34750</value>
+            <value>34795</value>
+            <value>34824</value>
+            <value>34947</value>
+            <value>34982</value>
+            <value>35042</value>
+            <value>35066</value>
+            <value>35070</value>
+            <value>35123</value>
+            <value>35545</value>
+            <value>35672</value>
+            <value>35693</value>
+            <value>35694</value>
+            <value>35696</value>
+            <value>35854</value>
+            <value>36000</value>
+            <value>36019</value>
+            <value>36066</value>
+            <value>36264</value>
+            <value>36273</value>
+            <value>36280</value>
+            <value>36300</value>
+            <value>36430</value>
+            <value>36565</value>
+            <value>36589</value>
+            <value>36628</value>
+            <value>36700</value>
+            <value>36792</value>
+            <value>36839</value>
+            <value>36959</value>
+            <value>37000</value>
+            <value>37055</value>
+            <value>37139</value>
+            <value>37151</value>
+            <value>37296</value>
+            <value>37340</value>
+            <value>37481</value>
+            <value>37524</value>
+            <value>37580</value>
+            <value>37581</value>
+            <value>37588</value>
+            <value>37618</value>
+            <value>37676</value>
+            <value>37767</value>
+            <value>37800</value>
+            <value>37853</value>
+            <value>37859</value>
+            <value>37924</value>
+            <value>37944</value>
+            <value>37993</value>
+            <value>38000</value>
+            <value>38038</value>
+            <value>38172</value>
+            <value>38212</value>
+            <value>38255</value>
+            <value>38787</value>
+            <value>38845</value>
+            <value>38880</value>
+            <value>38897</value>
+            <value>38919</value>
+            <value>38993</value>
+            <value>39000</value>
+            <value>39432</value>
+            <value>39469</value>
+            <value>39514</value>
+            <value>39541</value>
+            <value>39650</value>
+            <value>39865</value>
+            <value>40043</value>
+            <value>40125</value>
+            <value>40282</value>
+            <value>40428</value>
+            <value>40584</value>
+            <value>40636</value>
+            <value>40657</value>
+            <value>40768</value>
+            <value>40780</value>
+            <value>41026</value>
+            <value>41149</value>
+            <value>41447</value>
+            <value>41591</value>
+            <value>41609</value>
+            <value>41685</value>
+            <value>41758</value>
+            <value>41922</value>
+            <value>42064</value>
+            <value>42251</value>
+            <value>42500</value>
+            <value>42712</value>
+            <value>42755</value>
+            <value>42762</value>
+            <value>42800</value>
+            <value>42848</value>
+            <value>42850</value>
+            <value>42952</value>
+            <value>43122</value>
+            <value>43180</value>
+            <value>43210</value>
+            <value>43336</value>
+            <value>43346</value>
+            <value>43403</value>
+            <value>43406</value>
+            <value>43425</value>
+            <value>43452</value>
+            <value>43566</value>
+            <value>43661</value>
+            <value>43700</value>
+            <value>43920</value>
+            <value>44162</value>
+            <value>44202</value>
+            <value>44417</value>
+            <value>44547</value>
+            <value>44567</value>
+            <value>44674</value>
+            <value>44739</value>
+            <value>44742</value>
+            <value>44900</value>
+            <value>44913</value>
+            <value>45000</value>
+            <value>45260</value>
+            <value>45340</value>
+            <value>45348</value>
+            <value>45442</value>
+            <value>45494</value>
+            <value>45522</value>
+            <value>45572</value>
+            <value>45780</value>
+            <value>45929</value>
+            <value>46000</value>
+            <value>46100</value>
+            <value>46104</value>
+            <value>46442</value>
+            <value>46445</value>
+            <value>46560</value>
+            <value>46846</value>
+            <value>47000</value>
+            <value>47034</value>
+            <value>47079</value>
+            <value>47321</value>
+            <value>47343</value>
+            <value>47465</value>
+            <value>47791</value>
+            <value>48103</value>
+            <value>48152</value>
+            <value>48155</value>
+            <value>48306</value>
+            <value>48409</value>
+            <value>48438</value>
+            <value>48600</value>
+            <value>48965</value>
+            <value>49133</value>
+            <value>49378</value>
+            <value>49395</value>
+            <value>49473</value>
+            <value>49800</value>
+            <value>49802</value>
+            <value>49825</value>
+            <value>50000</value>
+            <value>50009</value>
+            <value>50017</value>
+            <value>50036</value>
+            <value>50065</value>
+            <value>50098</value>
+            <value>50356</value>
+            <value>50628</value>
+            <value>50649</value>
+            <value>51029</value>
+            <value>51116</value>
+            <value>51294</value>
+            <value>51390</value>
+            <value>51424</value>
+            <value>51557</value>
+            <value>51722</value>
+            <value>51841</value>
+            <value>52000</value>
+            <value>52578</value>
+            <value>52702</value>
+            <value>52759</value>
+            <value>52784</value>
+            <value>52826</value>
+            <value>52908</value>
+            <value>53000</value>
+            <value>53088</value>
+            <value>53228</value>
+            <value>53290</value>
+            <value>53480</value>
+            <value>53698</value>
+            <value>53730</value>
+            <value>54150</value>
+            <value>54372</value>
+            <value>54434</value>
+            <value>54880</value>
+            <value>55188</value>
+            <value>55586</value>
+            <value>55671</value>
+            <value>56074</value>
+            <value>56635</value>
+            <value>56755</value>
+            <value>57200</value>
+            <value>57311</value>
+            <value>57489</value>
+            <value>57504</value>
+            <value>57566</value>
+            <value>57731</value>
+            <value>57805</value>
+            <value>57910</value>
+            <value>57930</value>
+            <value>57972</value>
+            <value>58006</value>
+            <value>58047</value>
+            <value>58195</value>
+            <value>58472</value>
+            <value>58665</value>
+            <value>58683</value>
+            <value>58905</value>
+            <value>59165</value>
+            <value>59625</value>
+            <value>59976</value>
+            <value>60000</value>
+            <value>60122</value>
+            <value>60162</value>
+            <value>60487</value>
+            <value>60545</value>
+            <value>60670</value>
+            <value>60732</value>
+            <value>61665</value>
+            <value>62108</value>
+            <value>62232</value>
+            <value>62472</value>
+            <value>62565</value>
+            <value>62659</value>
+            <value>62989</value>
+            <value>63160</value>
+            <value>63198</value>
+            <value>63371</value>
+            <value>63596</value>
+            <value>63597</value>
+            <value>63663</value>
+            <value>63681</value>
+            <value>63861</value>
+            <value>63998</value>
+            <value>64445</value>
+            <value>64602</value>
+            <value>64618</value>
+            <value>65000</value>
+            <value>65088</value>
+            <value>65161</value>
+            <value>65217</value>
+            <value>65434</value>
+            <value>65700</value>
+            <value>66263</value>
+            <value>66286</value>
+            <value>66679</value>
+            <value>67133</value>
+            <value>67236</value>
+            <value>67242</value>
+            <value>67670</value>
+            <value>67708</value>
+            <value>67813</value>
+            <value>68138</value>
+            <value>68521</value>
+            <value>69035</value>
+            <value>69452</value>
+            <value>69800</value>
+            <value>69940</value>
+            <value>70000</value>
+            <value>70072</value>
+            <value>70090</value>
+            <value>70584</value>
+            <value>71090</value>
+            <value>71127</value>
+            <value>71226</value>
+            <value>71549</value>
+            <value>71751</value>
+            <value>72066</value>
+            <value>72155</value>
+            <value>72880</value>
+            <value>73187</value>
+            <value>73617</value>
+            <value>74831</value>
+            <value>75232</value>
+            <value>75830</value>
+            <value>77800</value>
+            <value>77887</value>
+            <value>78051</value>
+            <value>78222</value>
+            <value>78521</value>
+            <value>78669</value>
+            <value>78779</value>
+            <value>79805</value>
+            <value>80262</value>
+            <value>80400</value>
+            <value>80471</value>
+            <value>80701</value>
+            <value>81722</value>
+            <value>81732</value>
+            <value>81873</value>
+            <value>82087</value>
+            <value>82320</value>
+            <value>82355</value>
+            <value>82368</value>
+            <value>82627</value>
+            <value>82706</value>
+            <value>83306</value>
+            <value>83345</value>
+            <value>83533</value>
+            <value>83600</value>
+            <value>83683</value>
+            <value>83715</value>
+            <value>84138</value>
+            <value>84327</value>
+            <value>84389</value>
+            <value>84481</value>
+            <value>84710</value>
+            <value>84731</value>
+            <value>84838</value>
+            <value>85339</value>
+            <value>86258</value>
+            <value>86443</value>
+            <value>86483</value>
+            <value>87450</value>
+            <value>87864</value>
+            <value>88490</value>
+            <value>88698</value>
+            <value>88746</value>
+            <value>88839</value>
+            <value>89075</value>
+            <value>89699</value>
+            <value>89799</value>
+            <value>90000</value>
+            <value>90314</value>
+            <value>91532</value>
+            <value>91645</value>
+            <value>91685</value>
+            <value>91694</value>
+            <value>91935</value>
+            <value>92300</value>
+            <value>92342</value>
+            <value>92437</value>
+            <value>92835</value>
+            <value>93207</value>
+            <value>93472</value>
+            <value>93879</value>
+            <value>93905</value>
+            <value>94250</value>
+            <value>94357</value>
+            <value>94930</value>
+            <value>95943</value>
+            <value>96000</value>
+            <value>96340</value>
+            <value>96540</value>
+            <value>96578</value>
+            <value>97855</value>
+            <value>98357</value>
+            <value>98675</value>
+            <value>99313</value>
+            <value>99471</value>
+            <value>99564</value>
+            <value>100528</value>
+            <value>101035</value>
+            <value>101278</value>
+            <value>102696</value>
+            <value>102878</value>
+            <value>103000</value>
+            <value>103494</value>
+            <value>103970</value>
+            <value>104064</value>
+            <value>104426</value>
+            <value>104667</value>
+            <value>104860</value>
+            <value>105563</value>
+            <value>106003</value>
+            <value>106524</value>
+            <value>107312</value>
+            <value>107427</value>
+            <value>107547</value>
+            <value>107704</value>
+            <value>108000</value>
+            <value>108344</value>
+            <value>108950</value>
+            <value>109222</value>
+            <value>109978</value>
+            <value>110746</value>
+            <value>111176</value>
+            <value>111994</value>
+            <value>112484</value>
+            <value>113351</value>
+            <value>113702</value>
+            <value>113994</value>
+            <value>114187</value>
+            <value>114919</value>
+            <value>118802</value>
+            <value>119146</value>
+            <value>119200</value>
+            <value>119570</value>
+            <value>119585</value>
+            <value>119593</value>
+            <value>120000</value>
+            <value>120290</value>
+            <value>120513</value>
+            <value>123607</value>
+            <value>124231</value>
+            <value>124773</value>
+            <value>125212</value>
+            <value>126218</value>
+            <value>127364</value>
+            <value>128359</value>
+            <value>128621</value>
+            <value>129000</value>
+            <value>130247</value>
+            <value>130600</value>
+            <value>131592</value>
+            <value>131732</value>
+            <value>132284</value>
+            <value>132698</value>
+            <value>133588</value>
+            <value>133800</value>
+            <value>134197</value>
+            <value>135173</value>
+            <value>135433</value>
+            <value>135520</value>
+            <value>137565</value>
+            <value>138442</value>
+            <value>138995</value>
+            <value>140759</value>
+            <value>141366</value>
+            <value>141650</value>
+            <value>141917</value>
+            <value>142497</value>
+            <value>142989</value>
+            <value>143098</value>
+            <value>143183</value>
+            <value>145491</value>
+            <value>145538</value>
+            <value>145754</value>
+            <value>146150</value>
+            <value>146741</value>
+            <value>149081</value>
+            <value>149293</value>
+            <value>149697</value>
+            <value>150000</value>
+            <value>150198</value>
+            <value>151680</value>
+            <value>151740</value>
+            <value>152200</value>
+            <value>152525</value>
+            <value>152893</value>
+            <value>153767</value>
+            <value>158076</value>
+            <value>158099</value>
+            <value>159372</value>
+            <value>159820</value>
+            <value>160482</value>
+            <value>161000</value>
+            <value>162000</value>
+            <value>162928</value>
+            <value>163082</value>
+            <value>163984</value>
+            <value>164192</value>
+            <value>164806</value>
+            <value>164894</value>
+            <value>165553</value>
+            <value>167409</value>
+            <value>170727</value>
+            <value>171306</value>
+            <value>174428</value>
+            <value>176814</value>
+            <value>179014</value>
+            <value>179623</value>
+            <value>180993</value>
+            <value>181135</value>
+            <value>182255</value>
+            <value>182454</value>
+            <value>184395</value>
+            <value>184567</value>
+            <value>186618</value>
+            <value>186977</value>
+            <value>190980</value>
+            <value>191333</value>
+            <value>193868</value>
+            <value>193927</value>
+            <value>194674</value>
+            <value>194919</value>
+            <value>197040</value>
+            <value>197688</value>
+            <value>199136</value>
+            <value>201365</value>
+            <value>202675</value>
+            <value>209116</value>
+            <value>218997</value>
+            <value>220033</value>
+            <value>226454</value>
+            <value>230970</value>
+            <value>231163</value>
+            <value>235788</value>
+            <value>237357</value>
+            <value>240477</value>
+            <value>243018</value>
+            <value>263528</value>
+            <value>270237</value>
+            <value>270384</value>
+            <value>273812</value>
+            <value>283267</value>
+            <value>291429</value>
+            <value>295511</value>
+            <value>296313</value>
+            <value>299055</value>
+            <value>302661</value>
+            <value>305925</value>
+            <value>318986</value>
+            <value>342952</value>
+            <value>348270</value>
+            <value>348329</value>
+            <value>352633</value>
+            <value>357345</value>
+            <value>361107</value>
+            <value>367623</value>
+            <value>372503</value>
+            <value>380397</value>
+            <value>409137</value>
+            <value>418277</value>
+            <value>425829</value>
+            <value>427181</value>
+            <value>432841</value>
+            <value>432903</value>
+            <value>434475</value>
+            <value>483520</value>
+            <value>505103</value>
+            <value>535947</value>
+            <value>582725</value>
+            <value>601615</value>
+            <value>606050</value>
+            <value>629615</value>
+            <value>736307</value>
+            <value>743562</value>
+            <value>885760</value>
+            <value>889981</value>
+            <value>1072000</value>
+            <value>1350182</value>
+            <value>1585960</value>
+            <value>1639334</value>
+            <value>1680937</value>
+            <value>1719643</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='GHG Emissions Intensity' datatype='real' name='[GHGEmissionsIntensity]' role='dimension' type='ordinal' />
+      <column caption='Largest Property Use Type GFA' datatype='integer' name='[LargestPropertyUseTypeGFA]' role='measure' type='quantitative' />
+      <column caption='Largest Property Use Type' datatype='integer' name='[LargestPropertyUseType]' role='measure' type='quantitative' />
+      <column caption='List Of All Property Use Types' datatype='integer' name='[ListOfAllPropertyUseTypes]' role='measure' type='quantitative' />
+      <column caption='Numberof Buildings' datatype='string' name='[NumberofBuildings]' role='dimension' type='nominal' />
+      <column caption='Numberof Floors' datatype='string' name='[NumberofFloors]' role='dimension' type='nominal' />
+      <column caption='OSE Building ID' datatype='integer' name='[OSEBuildingID]' role='dimension' type='ordinal' />
+      <column caption='Primary Property Type' datatype='string' name='[PrimaryPropertyType]' role='dimension' type='nominal' />
+      <column caption='Property GFA Parking' datatype='string' name='[PropertyGFAParking]' role='dimension' type='nominal' />
+      <column caption='Property GFA Total' datatype='integer' name='[PropertyGFATotal]' role='measure' type='quantitative' />
+      <column caption='Property Name' datatype='string' name='[PropertyName]' role='dimension' type='nominal' />
+      <column caption='Second Largest Property Use Type GFA' datatype='integer' name='[SecondLargestPropertyUseTypeGFA]' role='measure' type='quantitative' />
+      <column caption='Second Largest Property Use Type' datatype='integer' name='[SecondLargestPropertyUseType]' role='measure' type='quantitative' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Tax Parcel Identification Number' datatype='integer' name='[TaxParcelIdentificationNumber]' role='dimension' type='ordinal' />
+      <column caption='Third Largest Property Use Type GFA' datatype='string' name='[ThirdLargestPropertyUseTypeGFA]' role='dimension' type='nominal' />
+      <column caption='Third Largest Property Use Type' datatype='string' name='[ThirdLargestPropertyUseType]' role='dimension' type='nominal' />
+      <column caption='Total GHG Emissions' datatype='string' name='[TotalGHGEmissions]' role='dimension' type='nominal' />
+      <column caption='Year Built' datatype='string' name='[YearBuilt]' role='dimension' type='nominal' />
+      <column caption='Years ENERGYSTAR Certified' datatype='string' name='[YearsENERGYSTARCertified]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Zip Codes]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column caption='Zip Code' datatype='string' name='[ZipCode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='sourceDataSet.csv' datatype='table' name='[__tableau_internal_object_id__].[sourceDataSet.csv_F90F95B38B1847CE9B56D43B2EC0844A]' role='measure' type='quantitative' />
+      <column-instance column='[BuildingType]' derivation='None' name='[none:BuildingType:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_212302528776482817]' derivation='None' name='[none:Calculation_212302528776482817:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Electricity(kWh)]' derivation='None' name='[none:Electricity(kWh):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PrimaryPropertyType]' derivation='None' name='[none:PrimaryPropertyType:nk]' pivot='key' type='nominal' />
+      <column-instance column='[ZipCode]' derivation='None' name='[none:ZipCode:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (Building Type,Electricity(kWh),l 1intEnergyScore)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:BuildingType:nk]' />
+          <groupfilter function='level-members' level='[none:Electricity(kWh):qk]' />
+          <groupfilter function='level-members' level='[none:Calculation_212302528776482817:qk]' />
+        </groupfilter>
+      </group>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='Ratios&amp;Calc' role='dimensions'>
+        <folder-item name='[Calculation_189925269632499712]' type='field' />
+        <folder-item name='[EnergyScoreInt (groupe)]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='Ratios&amp;Calc' role='measures'>
+        <folder-item name='[Calculation_212302528776482817]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='ToClean' role='measures'>
+        <folder-item name='[SiteEUI(kBtu/sf)]' type='field' />
+        <folder-item name='[SiteEUIWN(kBtu/sf)]' type='field' />
+        <folder-item name='[SiteEnergyUse(kBtu)]' type='field' />
+        <folder-item name='[SiteEnergyUseWN(kBtu)]' type='field' />
+        <folder-item name='[SourceEUI(kBtu/sf)]' type='field' />
+        <folder-item name='[SourceEUIWN(kBtu/sf)]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.true...folders-common>
+        <folder name='Ratios&amp;Calc'>
+          <folder-item name='[Calculation_189925269632499712]' type='field' />
+          <folder-item name='[Calculation_212302528776482817]' type='field' />
+          <folder-item name='[EnergyScoreInt (groupe)]' type='field' />
+        </folder>
+        <folder name='ToClean'>
+          <folder-item name='[SiteEUI(kBtu/sf)]' type='field' />
+          <folder-item name='[SiteEUIWN(kBtu/sf)]' type='field' />
+          <folder-item name='[SiteEnergyUse(kBtu)]' type='field' />
+          <folder-item name='[SiteEnergyUseWN(kBtu)]' type='field' />
+          <folder-item name='[SourceEUI(kBtu/sf)]' type='field' />
+          <folder-item name='[SourceEUIWN(kBtu/sf)]' type='field' />
+        </folder>
+      </_.fcp.SchemaViewerObjectModel.true...folders-common>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='shape' field='[none:BuildingType:nk]' type='shape'>
+            <map to='asterisk'>
+              <bucket>&quot;NonResidential&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;Campus&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;Nonresidential COS&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;SPS-District K-12&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;Multifamily LR (1-4)&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;Multifamily HR (10+)&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;Multifamily MR (5-9)&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;Nonresidential WA&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[EnergyScoreInt (groupe)]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;0 à 10&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;40 à 50&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;30 à 40&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;80 à 90&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;60 à 70&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;90 à 100&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;20 à 30&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;50 à 60&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;10 à 20&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Plus de 100&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;70 à 80&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:City:nk]' type='shape'>
+            <map to='circle'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;Seattle&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:PrimaryPropertyType:nk]' type='shape'>
+            <map to='asterisk'>
+              <bucket>&quot;K-12 School&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;Residence Hall&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;Distribution Center&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;Mixed Use Property&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;Supermarket / Grocery Store&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;Laboratory&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;Restaurant&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;Low-Rise Multifamily&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;Self-Storage Facility&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;Medical Office&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;Senior Care Community&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;Hospital&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;Warehouse&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;Mid-Rise Multifamily&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;Small- and Mid-Sized Office&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;High-Rise Multifamily&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;Office&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;University&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;Hotel&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;Refrigerated Warehouse&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;Worship Facility&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;Large Office&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;Retail Store&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:ZipCode:nk]' type='shape'>
+            <map to='asterisk'>
+              <bucket>&quot;98020&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;98105&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;98116&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;98133&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;98168&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;98272&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;98006&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;98101&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;98112&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;98124&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;98154&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;98195&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;98028&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;98106&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;98117&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;98134&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;98177&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;98040&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;98108&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;98119&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;98144&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;98181&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;98053&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;98109&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;98121&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;98145&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;98185&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;98012&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;98103&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;98114&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;98126&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;98164&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;98199&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;98070&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;98111&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;98122&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;98146&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;98191&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;98011&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;98102&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;98113&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;98125&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;98155&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;98198&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;98013&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;98104&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;98115&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;98127&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;98165&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;98204&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;98033&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;98107&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;98118&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;98136&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;98178&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='sourceDataSet.csv' id='sourceDataSet.csv_F90F95B38B1847CE9B56D43B2EC0844A'>
+            <properties context=''>
+              <relation connection='textscan.1bcz51m0ephp4c13fdnap1lx1v8l' name='sourceDataSet.csv' table='[sourceDataSet#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=';'>
+                  <column datatype='integer' name='OSEBuildingID' ordinal='0' />
+                  <column datatype='integer' name='DataYear' ordinal='1' />
+                  <column datatype='string' name='BuildingType' ordinal='2' />
+                  <column datatype='string' name='PrimaryPropertyType' ordinal='3' />
+                  <column datatype='string' name='PropertyName' ordinal='4' />
+                  <column datatype='integer' name='TaxParcelIdentificationNumber' ordinal='5' />
+                  <column datatype='string' name='Location' ordinal='6' />
+                  <column datatype='string' name='CouncilDistrictCode' ordinal='7' />
+                  <column datatype='string' name='Neighborhood' ordinal='8' />
+                  <column datatype='string' name='YearBuilt' ordinal='9' />
+                  <column datatype='string' name='NumberofBuildings' ordinal='10' />
+                  <column datatype='string' name='NumberofFloors' ordinal='11' />
+                  <column datatype='integer' name='PropertyGFATotal' ordinal='12' />
+                  <column datatype='string' name='PropertyGFAParking' ordinal='13' />
+                  <column datatype='integer' name='PropertyGFABuilding(s)' ordinal='14' />
+                  <column datatype='integer' name='ListOfAllPropertyUseTypes' ordinal='15' />
+                  <column datatype='integer' name='LargestPropertyUseType' ordinal='16' />
+                  <column datatype='integer' name='LargestPropertyUseTypeGFA' ordinal='17' />
+                  <column datatype='integer' name='SecondLargestPropertyUseType' ordinal='18' />
+                  <column datatype='integer' name='SecondLargestPropertyUseTypeGFA' ordinal='19' />
+                  <column datatype='string' name='ThirdLargestPropertyUseType' ordinal='20' />
+                  <column datatype='string' name='ThirdLargestPropertyUseTypeGFA' ordinal='21' />
+                  <column datatype='string' name='YearsENERGYSTARCertified' ordinal='22' />
+                  <column datatype='string' name='ENERGYSTARScore' ordinal='23' />
+                  <column datatype='real' name='SiteEUI(kBtu/sf)' ordinal='24' />
+                  <column datatype='real' name='SiteEUIWN(kBtu/sf)' ordinal='25' />
+                  <column datatype='real' name='SourceEUI(kBtu/sf)' ordinal='26' />
+                  <column datatype='real' name='SourceEUIWN(kBtu/sf)' ordinal='27' />
+                  <column datatype='real' name='SiteEnergyUse(kBtu)' ordinal='28' />
+                  <column datatype='real' name='SiteEnergyUseWN(kBtu)' ordinal='29' />
+                  <column datatype='real' name='SteamUse(kBtu)' ordinal='30' />
+                  <column datatype='real' name='Electricity(kWh)' ordinal='31' />
+                  <column datatype='real' name='Electricity(kBtu)' ordinal='32' />
+                  <column datatype='real' name='NaturalGas(therms)' ordinal='33' />
+                  <column datatype='real' name='NaturalGas(kBtu)' ordinal='34' />
+                  <column datatype='real' name='OtherFuelUse(kBtu)' ordinal='35' />
+                  <column datatype='real' name='GHGEmissions(MetricTonsCO2e)' ordinal='36' />
+                  <column datatype='real' name='GHGEmissionsIntensity(kgCO2e/ft2)' ordinal='37' />
+                  <column datatype='real' name='DefaultData' ordinal='38' />
+                  <column datatype='real' name='Comment' ordinal='39' />
+                  <column datatype='real' name='ComplianceStatus' ordinal='40' />
+                  <column datatype='real' name='Outlier' ordinal='41' />
+                  <column datatype='real' name='2010 Census Tracts' ordinal='42' />
+                  <column datatype='string' name='Seattle Police Department Micro Community Policing Plan Areas' ordinal='43' />
+                  <column datatype='string' name='City Council Districts' ordinal='44' />
+                  <column datatype='string' name='SPD Beats' ordinal='45' />
+                  <column datatype='string' name='Zip Codes' ordinal='46' />
+                  <column datatype='string' name='F48' ordinal='47' />
+                  <column datatype='string' name='F49' ordinal='48' />
+                  <column datatype='real' name='F50' ordinal='49' />
+                  <column datatype='real' name='F51' ordinal='50' />
+                  <column datatype='real' name='F52' ordinal='51' />
+                  <column datatype='real' name='F53' ordinal='52' />
+                  <column datatype='real' name='F54' ordinal='53' />
+                  <column datatype='real' name='F55' ordinal='54' />
+                  <column datatype='real' name='F56' ordinal='55' />
+                  <column datatype='integer' name='F57' ordinal='56' />
+                  <column datatype='integer' name='F58' ordinal='57' />
+                  <column datatype='integer' name='F59' ordinal='58' />
+                  <column datatype='real' name='F60' ordinal='59' />
+                  <column datatype='real' name='F61' ordinal='60' />
+                  <column datatype='integer' name='F62' ordinal='61' />
+                  <column datatype='integer' name='F63' ordinal='62' />
+                  <column datatype='real' name='F64' ordinal='63' />
+                  <column datatype='real' name='F65' ordinal='64' />
+                  <column datatype='string' name='F66' ordinal='65' />
+                  <column datatype='integer' name='F67' ordinal='66' />
+                  <column datatype='string' name='F68' ordinal='67' />
+                  <column datatype='integer' name='F69' ordinal='68' />
+                  <column datatype='integer' name='F70' ordinal='69' />
+                  <column datatype='integer' name='F71' ordinal='70' />
+                  <column datatype='string' name='F72' ordinal='71' />
+                  <column datatype='integer' name='F73' ordinal='72' />
+                  <column datatype='integer' name='F74' ordinal='73' />
+                  <column datatype='string' name='Address' ordinal='74' />
+                  <column datatype='string' name='City' ordinal='75' />
+                  <column datatype='string' name='State' ordinal='76' />
+                  <column datatype='string' name='ZipCode' ordinal='77' />
+                  <column datatype='string' name='Latitude' ordinal='78' />
+                  <column datatype='string' name='Longitude' ordinal='79' />
+                  <column datatype='string' name='Comments' ordinal='80' />
+                  <column datatype='string' name='TotalGHGEmissions' ordinal='81' />
+                  <column datatype='real' name='GHGEmissionsIntensity' ordinal='82' />
+                  <column datatype='string' name='File Paths' ordinal='83' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Feuille 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sourceDataSet' name='federated.1gcgmsf1qbq6ot16xb6e41i9ysxs' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1gcgmsf1qbq6ot16xb6e41i9ysxs'>
+            <column caption='EnergyScoreInt' datatype='integer' name='[Calculation_212302528776482817]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if int([ENERGYSTARScore]) &gt; 0 &#10;then int([ENERGYSTARScore])&#10;ELSE&#10;0 &#10;END' />
+            </column>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='ENERGYSTAR Score' datatype='string' name='[ENERGYSTARScore]' role='dimension' type='nominal' />
+            <column-instance column='[City]' derivation='Attribute' name='[attr:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_212302528776482817]' derivation='Avg' name='[avg:Calculation_212302528776482817:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ENERGYSTARScore]' derivation='None' name='[none:ENERGYSTARScore:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[avg:Calculation_212302528776482817:qk]' />
+              <lod column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:ENERGYSTARScore:nk]' />
+              <tooltip column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[attr:City:nk]' />
+              <geometry column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[Latitude (generated)]</rows>
+        <cols>[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{9B0E8620-39A3-4FAA-8599-31D0C7FD23FE}' />
+    </worksheet>
+    <worksheet name='Feuille 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sourceDataSet' name='federated.1gcgmsf1qbq6ot16xb6e41i9ysxs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gcgmsf1qbq6ot16xb6e41i9ysxs'>
+            <column datatype='string' name='[Address]' role='dimension' type='nominal' />
+            <column datatype='string' name='[City Council Districts]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Council District Code' datatype='string' name='[CouncilDistrictCode]' role='dimension' type='nominal' />
+            <column caption='ENERGYSTAR Score' datatype='string' name='[ENERGYSTARScore]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Latitude]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Longitude]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Neighborhood]' role='dimension' type='nominal' />
+            <column caption='Year Built' datatype='string' name='[YearBuilt]' role='dimension' type='nominal' />
+            <column-instance column='[Address]' derivation='None' name='[none:Address:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City Council Districts]' derivation='None' name='[none:City Council Districts:nk]' pivot='key' type='nominal' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[CouncilDistrictCode]' derivation='None' name='[none:CouncilDistrictCode:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ENERGYSTARScore]' derivation='None' name='[none:ENERGYSTARScore:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Latitude]' derivation='None' name='[none:Latitude:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Longitude]' derivation='None' name='[none:Longitude:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Neighborhood]' derivation='None' name='[none:Neighborhood:nk]' pivot='key' type='nominal' />
+            <column-instance column='[YearBuilt]' derivation='None' name='[none:YearBuilt:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:ENERGYSTARScore:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ENERGYSTARScore:nk]' />
+              <groupfilter function='member' level='[none:ENERGYSTARScore:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:ENERGYSTARScore:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:City:nk] / ([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Address:nk] / ([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Neighborhood:nk] / ([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Latitude:nk] / ([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Longitude:nk] / ([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:YearBuilt:nk] / ([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:CouncilDistrictCode:nk] / ([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:ENERGYSTARScore:nk] / ([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:City:nk] / ([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:City Council Districts:nk] / [federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Neighborhood:nk]))))))))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{720EA31B-4BB1-41A0-AFBB-F20F1981C402}' />
+    </worksheet>
+    <worksheet name='Feuille 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sourceDataSet' name='federated.1gcgmsf1qbq6ot16xb6e41i9ysxs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gcgmsf1qbq6ot16xb6e41i9ysxs'>
+            <column caption='Largest Property Use Type GFA' datatype='integer' name='[LargestPropertyUseTypeGFA]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Latitude]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Longitude]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Neighborhood]' role='dimension' type='nominal' />
+            <column caption='Second Largest Property Use Type' datatype='integer' name='[SecondLargestPropertyUseType]' role='measure' type='quantitative' />
+            <column-instance column='[LargestPropertyUseTypeGFA]' derivation='None' name='[none:LargestPropertyUseTypeGFA:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Latitude]' derivation='None' name='[none:Latitude:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Longitude]' derivation='None' name='[none:Longitude:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Neighborhood]' derivation='None' name='[none:Neighborhood:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SecondLargestPropertyUseType]' derivation='None' name='[none:SecondLargestPropertyUseType:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Neighborhood:nk]' value='224' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>(([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Neighborhood:nk] / ([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Latitude:nk] / ([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Longitude:nk] / [federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:LargestPropertyUseTypeGFA:ok]))) * [federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:SecondLargestPropertyUseType:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{07BB3B7F-7C5F-4160-8B49-FB65EE631930}' />
+    </worksheet>
+    <worksheet name='KWh and Energy Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sourceDataSet' name='federated.1gcgmsf1qbq6ot16xb6e41i9ysxs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gcgmsf1qbq6ot16xb6e41i9ysxs'>
+            <column caption='Building Type' datatype='string' name='[BuildingType]' role='dimension' type='nominal' />
+            <column caption='EnergyScoreInt' datatype='integer' name='[Calculation_212302528776482817]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if int([ENERGYSTARScore]) &gt; 0 &#10;then int([ENERGYSTARScore])&#10;ELSE&#10;0 &#10;END' />
+            </column>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='ENERGYSTAR Score' datatype='string' name='[ENERGYSTARScore]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Electricity(kWh)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[EnergyScoreInt (groupe)]' role='dimension' type='ordinal'>
+              <calculation class='categorical-bin' column='[Calculation_212302528776482817]' new-bin='true'>
+                <bin default-name='false' value='&quot;0 à 10&quot;'>
+                  <value>0</value>
+                  <value>1</value>
+                  <value>2</value>
+                  <value>3</value>
+                  <value>4</value>
+                  <value>5</value>
+                  <value>6</value>
+                  <value>7</value>
+                  <value>8</value>
+                  <value>9</value>
+                  <value>10</value>
+                </bin>
+                <bin default-name='false' value='&quot;10 à 20&quot;'>
+                  <value>11</value>
+                  <value>12</value>
+                  <value>13</value>
+                  <value>14</value>
+                  <value>15</value>
+                  <value>16</value>
+                  <value>17</value>
+                  <value>18</value>
+                  <value>19</value>
+                  <value>20</value>
+                </bin>
+                <bin default-name='false' value='&quot;20 à 30&quot;'>
+                  <value>21</value>
+                  <value>22</value>
+                  <value>23</value>
+                  <value>24</value>
+                  <value>25</value>
+                  <value>26</value>
+                  <value>27</value>
+                  <value>28</value>
+                  <value>29</value>
+                  <value>30</value>
+                </bin>
+                <bin default-name='false' value='&quot;30 à 40&quot;'>
+                  <value>31</value>
+                  <value>32</value>
+                  <value>33</value>
+                  <value>34</value>
+                  <value>35</value>
+                  <value>36</value>
+                  <value>37</value>
+                  <value>38</value>
+                  <value>39</value>
+                  <value>40</value>
+                </bin>
+                <bin default-name='false' value='&quot;40 à 50&quot;'>
+                  <value>41</value>
+                  <value>42</value>
+                  <value>43</value>
+                  <value>44</value>
+                  <value>45</value>
+                  <value>46</value>
+                  <value>47</value>
+                  <value>48</value>
+                  <value>49</value>
+                  <value>50</value>
+                </bin>
+                <bin default-name='false' value='&quot;50 à 60&quot;'>
+                  <value>51</value>
+                  <value>52</value>
+                  <value>53</value>
+                  <value>54</value>
+                  <value>55</value>
+                  <value>56</value>
+                  <value>57</value>
+                  <value>58</value>
+                  <value>59</value>
+                  <value>60</value>
+                </bin>
+                <bin default-name='false' value='&quot;60 à 70&quot;'>
+                  <value>61</value>
+                  <value>62</value>
+                  <value>63</value>
+                  <value>64</value>
+                  <value>65</value>
+                  <value>66</value>
+                  <value>67</value>
+                  <value>68</value>
+                  <value>69</value>
+                  <value>70</value>
+                </bin>
+                <bin default-name='false' value='&quot;70 à 80&quot;'>
+                  <value>71</value>
+                  <value>72</value>
+                  <value>73</value>
+                  <value>74</value>
+                  <value>75</value>
+                  <value>76</value>
+                  <value>77</value>
+                  <value>78</value>
+                  <value>79</value>
+                  <value>80</value>
+                </bin>
+                <bin default-name='false' value='&quot;80 à 90&quot;'>
+                  <value>81</value>
+                  <value>82</value>
+                  <value>83</value>
+                  <value>84</value>
+                  <value>85</value>
+                  <value>86</value>
+                  <value>87</value>
+                  <value>88</value>
+                  <value>89</value>
+                  <value>90</value>
+                </bin>
+                <bin default-name='false' value='&quot;90 à 100&quot;'>
+                  <value>91</value>
+                  <value>92</value>
+                  <value>93</value>
+                  <value>94</value>
+                  <value>95</value>
+                  <value>96</value>
+                  <value>97</value>
+                  <value>98</value>
+                  <value>99</value>
+                  <value>100</value>
+                </bin>
+                <bin default-name='false' value='&quot;Plus de 100&quot;'>
+                  <value>984</value>
+                  <value>1250</value>
+                  <value>4051</value>
+                  <value>4276</value>
+                  <value>6633</value>
+                  <value>10155</value>
+                  <value>10292</value>
+                  <value>10500</value>
+                  <value>10736</value>
+                  <value>11000</value>
+                  <value>11084</value>
+                  <value>11550</value>
+                  <value>11600</value>
+                  <value>11729</value>
+                  <value>12100</value>
+                  <value>12331</value>
+                  <value>12640</value>
+                  <value>12644</value>
+                  <value>12806</value>
+                  <value>13000</value>
+                  <value>13175</value>
+                  <value>13200</value>
+                  <value>13364</value>
+                  <value>13500</value>
+                  <value>13600</value>
+                  <value>13911</value>
+                  <value>13940</value>
+                  <value>13945</value>
+                  <value>14000</value>
+                  <value>14206</value>
+                  <value>14269</value>
+                  <value>14314</value>
+                  <value>14400</value>
+                  <value>14452</value>
+                  <value>14585</value>
+                  <value>15000</value>
+                  <value>15300</value>
+                  <value>15346</value>
+                  <value>15364</value>
+                  <value>15400</value>
+                  <value>15524</value>
+                  <value>15609</value>
+                  <value>15667</value>
+                  <value>15900</value>
+                  <value>16000</value>
+                  <value>16243</value>
+                  <value>16480</value>
+                  <value>16554</value>
+                  <value>16766</value>
+                  <value>16826</value>
+                  <value>16838</value>
+                  <value>16980</value>
+                  <value>17026</value>
+                  <value>17041</value>
+                  <value>17164</value>
+                  <value>17332</value>
+                  <value>17334</value>
+                  <value>17384</value>
+                  <value>17422</value>
+                  <value>17426</value>
+                  <value>17514</value>
+                  <value>17526</value>
+                  <value>17650</value>
+                  <value>17700</value>
+                  <value>17822</value>
+                  <value>18000</value>
+                  <value>18075</value>
+                  <value>18100</value>
+                  <value>18186</value>
+                  <value>18278</value>
+                  <value>18364</value>
+                  <value>18373</value>
+                  <value>18396</value>
+                  <value>18400</value>
+                  <value>18581</value>
+                  <value>18700</value>
+                  <value>19034</value>
+                  <value>19050</value>
+                  <value>19120</value>
+                  <value>19132</value>
+                  <value>19183</value>
+                  <value>19189</value>
+                  <value>19200</value>
+                  <value>19216</value>
+                  <value>19232</value>
+                  <value>19373</value>
+                  <value>19386</value>
+                  <value>19407</value>
+                  <value>19430</value>
+                  <value>19471</value>
+                  <value>19500</value>
+                  <value>19531</value>
+                  <value>19542</value>
+                  <value>19600</value>
+                  <value>19749</value>
+                  <value>19987</value>
+                  <value>20000</value>
+                  <value>20058</value>
+                  <value>20106</value>
+                  <value>20148</value>
+                  <value>20183</value>
+                  <value>20237</value>
+                  <value>20261</value>
+                  <value>20316</value>
+                  <value>20356</value>
+                  <value>20400</value>
+                  <value>20434</value>
+                  <value>20448</value>
+                  <value>20475</value>
+                  <value>20480</value>
+                  <value>20517</value>
+                  <value>20520</value>
+                  <value>20529</value>
+                  <value>20560</value>
+                  <value>20565</value>
+                  <value>20590</value>
+                  <value>20600</value>
+                  <value>20752</value>
+                  <value>20809</value>
+                  <value>20840</value>
+                  <value>20930</value>
+                  <value>20962</value>
+                  <value>20996</value>
+                  <value>21000</value>
+                  <value>21050</value>
+                  <value>21073</value>
+                  <value>21107</value>
+                  <value>21176</value>
+                  <value>21312</value>
+                  <value>21400</value>
+                  <value>21454</value>
+                  <value>21581</value>
+                  <value>21600</value>
+                  <value>21616</value>
+                  <value>21700</value>
+                  <value>21715</value>
+                  <value>21780</value>
+                  <value>21788</value>
+                  <value>21790</value>
+                  <value>21804</value>
+                  <value>21815</value>
+                  <value>21840</value>
+                  <value>21841</value>
+                  <value>21877</value>
+                  <value>21888</value>
+                  <value>21909</value>
+                  <value>21990</value>
+                  <value>21991</value>
+                  <value>22000</value>
+                  <value>22018</value>
+                  <value>22050</value>
+                  <value>22088</value>
+                  <value>22093</value>
+                  <value>22151</value>
+                  <value>22176</value>
+                  <value>22177</value>
+                  <value>22218</value>
+                  <value>22348</value>
+                  <value>22364</value>
+                  <value>22365</value>
+                  <value>22392</value>
+                  <value>22394</value>
+                  <value>22625</value>
+                  <value>22694</value>
+                  <value>22729</value>
+                  <value>22740</value>
+                  <value>22777</value>
+                  <value>22895</value>
+                  <value>22898</value>
+                  <value>22935</value>
+                  <value>22962</value>
+                  <value>22971</value>
+                  <value>22984</value>
+                  <value>22992</value>
+                  <value>23000</value>
+                  <value>23162</value>
+                  <value>23193</value>
+                  <value>23200</value>
+                  <value>23204</value>
+                  <value>23272</value>
+                  <value>23320</value>
+                  <value>23381</value>
+                  <value>23419</value>
+                  <value>23495</value>
+                  <value>23529</value>
+                  <value>23545</value>
+                  <value>23553</value>
+                  <value>23580</value>
+                  <value>23620</value>
+                  <value>23659</value>
+                  <value>23829</value>
+                  <value>23835</value>
+                  <value>23840</value>
+                  <value>23867</value>
+                  <value>23927</value>
+                  <value>24000</value>
+                  <value>24084</value>
+                  <value>24109</value>
+                  <value>24111</value>
+                  <value>24120</value>
+                  <value>24169</value>
+                  <value>24200</value>
+                  <value>24224</value>
+                  <value>24227</value>
+                  <value>24249</value>
+                  <value>24280</value>
+                  <value>24288</value>
+                  <value>24325</value>
+                  <value>24329</value>
+                  <value>24330</value>
+                  <value>24435</value>
+                  <value>24441</value>
+                  <value>24459</value>
+                  <value>24480</value>
+                  <value>24520</value>
+                  <value>24570</value>
+                  <value>24696</value>
+                  <value>24717</value>
+                  <value>24809</value>
+                  <value>24813</value>
+                  <value>24838</value>
+                  <value>24882</value>
+                  <value>24914</value>
+                  <value>24948</value>
+                  <value>25000</value>
+                  <value>25056</value>
+                  <value>25076</value>
+                  <value>25094</value>
+                  <value>25096</value>
+                  <value>25129</value>
+                  <value>25144</value>
+                  <value>25184</value>
+                  <value>25288</value>
+                  <value>25301</value>
+                  <value>25368</value>
+                  <value>25459</value>
+                  <value>25490</value>
+                  <value>25500</value>
+                  <value>25525</value>
+                  <value>25547</value>
+                  <value>25562</value>
+                  <value>25586</value>
+                  <value>25649</value>
+                  <value>25671</value>
+                  <value>25765</value>
+                  <value>25778</value>
+                  <value>25800</value>
+                  <value>25828</value>
+                  <value>25859</value>
+                  <value>25876</value>
+                  <value>25883</value>
+                  <value>25891</value>
+                  <value>25898</value>
+                  <value>25943</value>
+                  <value>25946</value>
+                  <value>25968</value>
+                  <value>26000</value>
+                  <value>26012</value>
+                  <value>26044</value>
+                  <value>26100</value>
+                  <value>26112</value>
+                  <value>26185</value>
+                  <value>26195</value>
+                  <value>26275</value>
+                  <value>26282</value>
+                  <value>26295</value>
+                  <value>26386</value>
+                  <value>26393</value>
+                  <value>26407</value>
+                  <value>26418</value>
+                  <value>26450</value>
+                  <value>26556</value>
+                  <value>26568</value>
+                  <value>26580</value>
+                  <value>26941</value>
+                  <value>27000</value>
+                  <value>27005</value>
+                  <value>27008</value>
+                  <value>27035</value>
+                  <value>27072</value>
+                  <value>27118</value>
+                  <value>27172</value>
+                  <value>27176</value>
+                  <value>27180</value>
+                  <value>27272</value>
+                  <value>27291</value>
+                  <value>27296</value>
+                  <value>27447</value>
+                  <value>27510</value>
+                  <value>27600</value>
+                  <value>27636</value>
+                  <value>27653</value>
+                  <value>27656</value>
+                  <value>27791</value>
+                  <value>27849</value>
+                  <value>27892</value>
+                  <value>27993</value>
+                  <value>28000</value>
+                  <value>28026</value>
+                  <value>28038</value>
+                  <value>28176</value>
+                  <value>28196</value>
+                  <value>28197</value>
+                  <value>28227</value>
+                  <value>28235</value>
+                  <value>28289</value>
+                  <value>28293</value>
+                  <value>28303</value>
+                  <value>28356</value>
+                  <value>28400</value>
+                  <value>28453</value>
+                  <value>28500</value>
+                  <value>28543</value>
+                  <value>28567</value>
+                  <value>28734</value>
+                  <value>28735</value>
+                  <value>28800</value>
+                  <value>28970</value>
+                  <value>29001</value>
+                  <value>29100</value>
+                  <value>29255</value>
+                  <value>29258</value>
+                  <value>29302</value>
+                  <value>29353</value>
+                  <value>29370</value>
+                  <value>29392</value>
+                  <value>29394</value>
+                  <value>29513</value>
+                  <value>29527</value>
+                  <value>29551</value>
+                  <value>29618</value>
+                  <value>29640</value>
+                  <value>29647</value>
+                  <value>29720</value>
+                  <value>29788</value>
+                  <value>29880</value>
+                  <value>29914</value>
+                  <value>30000</value>
+                  <value>30044</value>
+                  <value>30095</value>
+                  <value>30189</value>
+                  <value>30200</value>
+                  <value>30216</value>
+                  <value>30230</value>
+                  <value>30236</value>
+                  <value>30480</value>
+                  <value>30716</value>
+                  <value>30720</value>
+                  <value>30786</value>
+                  <value>30799</value>
+                  <value>30810</value>
+                  <value>30824</value>
+                  <value>30889</value>
+                  <value>30899</value>
+                  <value>30920</value>
+                  <value>30932</value>
+                  <value>30933</value>
+                  <value>31184</value>
+                  <value>31325</value>
+                  <value>31379</value>
+                  <value>31400</value>
+                  <value>31455</value>
+                  <value>31570</value>
+                  <value>31659</value>
+                  <value>31800</value>
+                  <value>31932</value>
+                  <value>31945</value>
+                  <value>31979</value>
+                  <value>32000</value>
+                  <value>32001</value>
+                  <value>32039</value>
+                  <value>32098</value>
+                  <value>32170</value>
+                  <value>32200</value>
+                  <value>32205</value>
+                  <value>32393</value>
+                  <value>32432</value>
+                  <value>32471</value>
+                  <value>32510</value>
+                  <value>32536</value>
+                  <value>32569</value>
+                  <value>32580</value>
+                  <value>32610</value>
+                  <value>32626</value>
+                  <value>32676</value>
+                  <value>32753</value>
+                  <value>32880</value>
+                  <value>33000</value>
+                  <value>33176</value>
+                  <value>33332</value>
+                  <value>33385</value>
+                  <value>33695</value>
+                  <value>33705</value>
+                  <value>33848</value>
+                  <value>33852</value>
+                  <value>33869</value>
+                  <value>33892</value>
+                  <value>33997</value>
+                  <value>34000</value>
+                  <value>34038</value>
+                  <value>34137</value>
+                  <value>34160</value>
+                  <value>34165</value>
+                  <value>34206</value>
+                  <value>34368</value>
+                  <value>34425</value>
+                  <value>34584</value>
+                  <value>34629</value>
+                  <value>34647</value>
+                  <value>34750</value>
+                  <value>34795</value>
+                  <value>34824</value>
+                  <value>34947</value>
+                  <value>34982</value>
+                  <value>35042</value>
+                  <value>35066</value>
+                  <value>35070</value>
+                  <value>35123</value>
+                  <value>35545</value>
+                  <value>35672</value>
+                  <value>35693</value>
+                  <value>35694</value>
+                  <value>35696</value>
+                  <value>35854</value>
+                  <value>36000</value>
+                  <value>36019</value>
+                  <value>36066</value>
+                  <value>36264</value>
+                  <value>36273</value>
+                  <value>36280</value>
+                  <value>36300</value>
+                  <value>36430</value>
+                  <value>36565</value>
+                  <value>36589</value>
+                  <value>36628</value>
+                  <value>36700</value>
+                  <value>36792</value>
+                  <value>36839</value>
+                  <value>36959</value>
+                  <value>37000</value>
+                  <value>37055</value>
+                  <value>37139</value>
+                  <value>37151</value>
+                  <value>37296</value>
+                  <value>37340</value>
+                  <value>37481</value>
+                  <value>37524</value>
+                  <value>37580</value>
+                  <value>37581</value>
+                  <value>37588</value>
+                  <value>37618</value>
+                  <value>37676</value>
+                  <value>37767</value>
+                  <value>37800</value>
+                  <value>37853</value>
+                  <value>37859</value>
+                  <value>37924</value>
+                  <value>37944</value>
+                  <value>37993</value>
+                  <value>38000</value>
+                  <value>38038</value>
+                  <value>38172</value>
+                  <value>38212</value>
+                  <value>38255</value>
+                  <value>38787</value>
+                  <value>38845</value>
+                  <value>38880</value>
+                  <value>38897</value>
+                  <value>38919</value>
+                  <value>38993</value>
+                  <value>39000</value>
+                  <value>39432</value>
+                  <value>39469</value>
+                  <value>39514</value>
+                  <value>39541</value>
+                  <value>39650</value>
+                  <value>39865</value>
+                  <value>40043</value>
+                  <value>40125</value>
+                  <value>40282</value>
+                  <value>40428</value>
+                  <value>40584</value>
+                  <value>40636</value>
+                  <value>40657</value>
+                  <value>40768</value>
+                  <value>40780</value>
+                  <value>41026</value>
+                  <value>41149</value>
+                  <value>41447</value>
+                  <value>41591</value>
+                  <value>41609</value>
+                  <value>41685</value>
+                  <value>41758</value>
+                  <value>41922</value>
+                  <value>42064</value>
+                  <value>42251</value>
+                  <value>42500</value>
+                  <value>42712</value>
+                  <value>42755</value>
+                  <value>42762</value>
+                  <value>42800</value>
+                  <value>42848</value>
+                  <value>42850</value>
+                  <value>42952</value>
+                  <value>43122</value>
+                  <value>43180</value>
+                  <value>43210</value>
+                  <value>43336</value>
+                  <value>43346</value>
+                  <value>43403</value>
+                  <value>43406</value>
+                  <value>43425</value>
+                  <value>43452</value>
+                  <value>43566</value>
+                  <value>43661</value>
+                  <value>43700</value>
+                  <value>43920</value>
+                  <value>44162</value>
+                  <value>44202</value>
+                  <value>44417</value>
+                  <value>44547</value>
+                  <value>44567</value>
+                  <value>44674</value>
+                  <value>44739</value>
+                  <value>44742</value>
+                  <value>44900</value>
+                  <value>44913</value>
+                  <value>45000</value>
+                  <value>45260</value>
+                  <value>45340</value>
+                  <value>45348</value>
+                  <value>45442</value>
+                  <value>45494</value>
+                  <value>45522</value>
+                  <value>45572</value>
+                  <value>45780</value>
+                  <value>45929</value>
+                  <value>46000</value>
+                  <value>46100</value>
+                  <value>46104</value>
+                  <value>46442</value>
+                  <value>46445</value>
+                  <value>46560</value>
+                  <value>46846</value>
+                  <value>47000</value>
+                  <value>47034</value>
+                  <value>47079</value>
+                  <value>47321</value>
+                  <value>47343</value>
+                  <value>47465</value>
+                  <value>47791</value>
+                  <value>48103</value>
+                  <value>48152</value>
+                  <value>48155</value>
+                  <value>48306</value>
+                  <value>48409</value>
+                  <value>48438</value>
+                  <value>48600</value>
+                  <value>48965</value>
+                  <value>49133</value>
+                  <value>49378</value>
+                  <value>49395</value>
+                  <value>49473</value>
+                  <value>49800</value>
+                  <value>49802</value>
+                  <value>49825</value>
+                  <value>50000</value>
+                  <value>50009</value>
+                  <value>50017</value>
+                  <value>50036</value>
+                  <value>50065</value>
+                  <value>50098</value>
+                  <value>50356</value>
+                  <value>50628</value>
+                  <value>50649</value>
+                  <value>51029</value>
+                  <value>51116</value>
+                  <value>51294</value>
+                  <value>51390</value>
+                  <value>51424</value>
+                  <value>51557</value>
+                  <value>51722</value>
+                  <value>51841</value>
+                  <value>52000</value>
+                  <value>52578</value>
+                  <value>52702</value>
+                  <value>52759</value>
+                  <value>52784</value>
+                  <value>52826</value>
+                  <value>52908</value>
+                  <value>53000</value>
+                  <value>53088</value>
+                  <value>53228</value>
+                  <value>53290</value>
+                  <value>53480</value>
+                  <value>53698</value>
+                  <value>53730</value>
+                  <value>54150</value>
+                  <value>54372</value>
+                  <value>54434</value>
+                  <value>54880</value>
+                  <value>55188</value>
+                  <value>55586</value>
+                  <value>55671</value>
+                  <value>56074</value>
+                  <value>56635</value>
+                  <value>56755</value>
+                  <value>57200</value>
+                  <value>57311</value>
+                  <value>57489</value>
+                  <value>57504</value>
+                  <value>57566</value>
+                  <value>57731</value>
+                  <value>57805</value>
+                  <value>57910</value>
+                  <value>57930</value>
+                  <value>57972</value>
+                  <value>58006</value>
+                  <value>58047</value>
+                  <value>58195</value>
+                  <value>58472</value>
+                  <value>58665</value>
+                  <value>58683</value>
+                  <value>58905</value>
+                  <value>59165</value>
+                  <value>59625</value>
+                  <value>59976</value>
+                  <value>60000</value>
+                  <value>60122</value>
+                  <value>60162</value>
+                  <value>60487</value>
+                  <value>60545</value>
+                  <value>60670</value>
+                  <value>60732</value>
+                  <value>61665</value>
+                  <value>62108</value>
+                  <value>62232</value>
+                  <value>62472</value>
+                  <value>62565</value>
+                  <value>62659</value>
+                  <value>62989</value>
+                  <value>63160</value>
+                  <value>63198</value>
+                  <value>63371</value>
+                  <value>63596</value>
+                  <value>63597</value>
+                  <value>63663</value>
+                  <value>63681</value>
+                  <value>63861</value>
+                  <value>63998</value>
+                  <value>64445</value>
+                  <value>64602</value>
+                  <value>64618</value>
+                  <value>65000</value>
+                  <value>65088</value>
+                  <value>65161</value>
+                  <value>65217</value>
+                  <value>65434</value>
+                  <value>65700</value>
+                  <value>66263</value>
+                  <value>66286</value>
+                  <value>66679</value>
+                  <value>67133</value>
+                  <value>67236</value>
+                  <value>67242</value>
+                  <value>67670</value>
+                  <value>67708</value>
+                  <value>67813</value>
+                  <value>68138</value>
+                  <value>68521</value>
+                  <value>69035</value>
+                  <value>69452</value>
+                  <value>69800</value>
+                  <value>69940</value>
+                  <value>70000</value>
+                  <value>70072</value>
+                  <value>70090</value>
+                  <value>70584</value>
+                  <value>71090</value>
+                  <value>71127</value>
+                  <value>71226</value>
+                  <value>71549</value>
+                  <value>71751</value>
+                  <value>72066</value>
+                  <value>72155</value>
+                  <value>72880</value>
+                  <value>73187</value>
+                  <value>73617</value>
+                  <value>74831</value>
+                  <value>75232</value>
+                  <value>75830</value>
+                  <value>77800</value>
+                  <value>77887</value>
+                  <value>78051</value>
+                  <value>78222</value>
+                  <value>78521</value>
+                  <value>78669</value>
+                  <value>78779</value>
+                  <value>79805</value>
+                  <value>80262</value>
+                  <value>80400</value>
+                  <value>80471</value>
+                  <value>80701</value>
+                  <value>81722</value>
+                  <value>81732</value>
+                  <value>81873</value>
+                  <value>82087</value>
+                  <value>82320</value>
+                  <value>82355</value>
+                  <value>82368</value>
+                  <value>82627</value>
+                  <value>82706</value>
+                  <value>83306</value>
+                  <value>83345</value>
+                  <value>83533</value>
+                  <value>83600</value>
+                  <value>83683</value>
+                  <value>83715</value>
+                  <value>84138</value>
+                  <value>84327</value>
+                  <value>84389</value>
+                  <value>84481</value>
+                  <value>84710</value>
+                  <value>84731</value>
+                  <value>84838</value>
+                  <value>85339</value>
+                  <value>86258</value>
+                  <value>86443</value>
+                  <value>86483</value>
+                  <value>87450</value>
+                  <value>87864</value>
+                  <value>88490</value>
+                  <value>88698</value>
+                  <value>88746</value>
+                  <value>88839</value>
+                  <value>89075</value>
+                  <value>89699</value>
+                  <value>89799</value>
+                  <value>90000</value>
+                  <value>90314</value>
+                  <value>91532</value>
+                  <value>91645</value>
+                  <value>91685</value>
+                  <value>91694</value>
+                  <value>91935</value>
+                  <value>92300</value>
+                  <value>92342</value>
+                  <value>92437</value>
+                  <value>92835</value>
+                  <value>93207</value>
+                  <value>93472</value>
+                  <value>93879</value>
+                  <value>93905</value>
+                  <value>94250</value>
+                  <value>94357</value>
+                  <value>94930</value>
+                  <value>95943</value>
+                  <value>96000</value>
+                  <value>96340</value>
+                  <value>96540</value>
+                  <value>96578</value>
+                  <value>97855</value>
+                  <value>98357</value>
+                  <value>98675</value>
+                  <value>99313</value>
+                  <value>99471</value>
+                  <value>99564</value>
+                  <value>100528</value>
+                  <value>101035</value>
+                  <value>101278</value>
+                  <value>102696</value>
+                  <value>102878</value>
+                  <value>103000</value>
+                  <value>103494</value>
+                  <value>103970</value>
+                  <value>104064</value>
+                  <value>104426</value>
+                  <value>104667</value>
+                  <value>104860</value>
+                  <value>105563</value>
+                  <value>106003</value>
+                  <value>106524</value>
+                  <value>107312</value>
+                  <value>107427</value>
+                  <value>107547</value>
+                  <value>107704</value>
+                  <value>108000</value>
+                  <value>108344</value>
+                  <value>108950</value>
+                  <value>109222</value>
+                  <value>109978</value>
+                  <value>110746</value>
+                  <value>111176</value>
+                  <value>111994</value>
+                  <value>112484</value>
+                  <value>113351</value>
+                  <value>113702</value>
+                  <value>113994</value>
+                  <value>114187</value>
+                  <value>114919</value>
+                  <value>118802</value>
+                  <value>119146</value>
+                  <value>119200</value>
+                  <value>119570</value>
+                  <value>119585</value>
+                  <value>119593</value>
+                  <value>120000</value>
+                  <value>120290</value>
+                  <value>120513</value>
+                  <value>123607</value>
+                  <value>124231</value>
+                  <value>124773</value>
+                  <value>125212</value>
+                  <value>126218</value>
+                  <value>127364</value>
+                  <value>128359</value>
+                  <value>128621</value>
+                  <value>129000</value>
+                  <value>130247</value>
+                  <value>130600</value>
+                  <value>131592</value>
+                  <value>131732</value>
+                  <value>132284</value>
+                  <value>132698</value>
+                  <value>133588</value>
+                  <value>133800</value>
+                  <value>134197</value>
+                  <value>135173</value>
+                  <value>135433</value>
+                  <value>135520</value>
+                  <value>137565</value>
+                  <value>138442</value>
+                  <value>138995</value>
+                  <value>140759</value>
+                  <value>141366</value>
+                  <value>141650</value>
+                  <value>141917</value>
+                  <value>142497</value>
+                  <value>142989</value>
+                  <value>143098</value>
+                  <value>143183</value>
+                  <value>145491</value>
+                  <value>145538</value>
+                  <value>145754</value>
+                  <value>146150</value>
+                  <value>146741</value>
+                  <value>149081</value>
+                  <value>149293</value>
+                  <value>149697</value>
+                  <value>150000</value>
+                  <value>150198</value>
+                  <value>151680</value>
+                  <value>151740</value>
+                  <value>152200</value>
+                  <value>152525</value>
+                  <value>152893</value>
+                  <value>153767</value>
+                  <value>158076</value>
+                  <value>158099</value>
+                  <value>159372</value>
+                  <value>159820</value>
+                  <value>160482</value>
+                  <value>161000</value>
+                  <value>162000</value>
+                  <value>162928</value>
+                  <value>163082</value>
+                  <value>163984</value>
+                  <value>164192</value>
+                  <value>164806</value>
+                  <value>164894</value>
+                  <value>165553</value>
+                  <value>167409</value>
+                  <value>170727</value>
+                  <value>171306</value>
+                  <value>174428</value>
+                  <value>176814</value>
+                  <value>179014</value>
+                  <value>179623</value>
+                  <value>180993</value>
+                  <value>181135</value>
+                  <value>182255</value>
+                  <value>182454</value>
+                  <value>184395</value>
+                  <value>184567</value>
+                  <value>186618</value>
+                  <value>186977</value>
+                  <value>190980</value>
+                  <value>191333</value>
+                  <value>193868</value>
+                  <value>193927</value>
+                  <value>194674</value>
+                  <value>194919</value>
+                  <value>197040</value>
+                  <value>197688</value>
+                  <value>199136</value>
+                  <value>201365</value>
+                  <value>202675</value>
+                  <value>209116</value>
+                  <value>218997</value>
+                  <value>220033</value>
+                  <value>226454</value>
+                  <value>230970</value>
+                  <value>231163</value>
+                  <value>235788</value>
+                  <value>237357</value>
+                  <value>240477</value>
+                  <value>243018</value>
+                  <value>263528</value>
+                  <value>270237</value>
+                  <value>270384</value>
+                  <value>273812</value>
+                  <value>283267</value>
+                  <value>291429</value>
+                  <value>295511</value>
+                  <value>296313</value>
+                  <value>299055</value>
+                  <value>302661</value>
+                  <value>305925</value>
+                  <value>318986</value>
+                  <value>342952</value>
+                  <value>348270</value>
+                  <value>348329</value>
+                  <value>352633</value>
+                  <value>357345</value>
+                  <value>361107</value>
+                  <value>367623</value>
+                  <value>372503</value>
+                  <value>380397</value>
+                  <value>409137</value>
+                  <value>418277</value>
+                  <value>425829</value>
+                  <value>427181</value>
+                  <value>432841</value>
+                  <value>432903</value>
+                  <value>434475</value>
+                  <value>483520</value>
+                  <value>505103</value>
+                  <value>535947</value>
+                  <value>582725</value>
+                  <value>601615</value>
+                  <value>606050</value>
+                  <value>629615</value>
+                  <value>736307</value>
+                  <value>743562</value>
+                  <value>885760</value>
+                  <value>889981</value>
+                  <value>1072000</value>
+                  <value>1350182</value>
+                  <value>1585960</value>
+                  <value>1639334</value>
+                  <value>1680937</value>
+                  <value>1719643</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='GHG Emissions Intensity' datatype='real' name='[GHGEmissionsIntensity]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Longitude]' role='dimension' type='nominal' />
+            <column datatype='real' name='[SourceEUI(kBtu/sf)]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[SourceEUIWN(kBtu/sf)]' role='dimension' type='ordinal' />
+            <column caption='Zip Code' datatype='string' name='[ZipCode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+            <column-instance column='[Longitude]' derivation='Attribute' name='[attr:Longitude:nk]' pivot='key' type='nominal' />
+            <column-instance column='[BuildingType]' derivation='None' name='[none:BuildingType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_212302528776482817]' derivation='None' name='[none:Calculation_212302528776482817:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[City]' derivation='None' name='[none:City:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Electricity(kWh)]' derivation='None' name='[none:Electricity(kWh):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GHGEmissionsIntensity]' derivation='None' name='[none:GHGEmissionsIntensity:nk]' pivot='key' type='ordinal' />
+            <column-instance column='[GHGEmissionsIntensity]' derivation='None' name='[none:GHGEmissionsIntensity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SourceEUI(kBtu/sf)]' derivation='None' name='[none:SourceEUI(kBtu/sf):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SourceEUIWN(kBtu/sf)]' derivation='None' name='[none:SourceEUIWN(kBtu/sf):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ZipCode]' derivation='None' name='[none:ZipCode:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[Exclusions (Building Type,Electricity(kWh),l 1intEnergyScore)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:BuildingType:nk]' />
+                <groupfilter function='level-members' level='[none:Electricity(kWh):qk]' />
+                <groupfilter function='level-members' level='[none:Calculation_212302528776482817:qk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:BuildingType:nk]' member='&quot;Campus&quot;' />
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Calculation_212302528776482817:qk]' member='0' />
+                    <groupfilter function='member' level='[none:Electricity(kWh):qk]' member='192577488.0' />
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:BuildingType:nk]' />
+                  <hierarchy name='[none:Electricity(kWh):qk]' />
+                  <hierarchy name='[none:Calculation_212302528776482817:qk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:BuildingType:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:BuildingType:nk]' />
+              <groupfilter function='member' level='[none:BuildingType:nk]' member='&quot;Campus&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:City:nk]'>
+            <groupfilter function='member' level='[none:City:nk]' member='&quot;Seattle&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:GHGEmissionsIntensity:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:GHGEmissionsIntensity:nk]' />
+              <groupfilter function='member' level='[none:GHGEmissionsIntensity:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:ZipCode:nk]'>
+            <groupfilter from='&quot;98006&quot;' function='range' level='[none:ZipCode:nk]' to='&quot;98272&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:City:nk]</column>
+            <column>[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:GHGEmissionsIntensity:nk]</column>
+            <column>[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[Exclusions (Building Type,Electricity(kWh),l 1intEnergyScore)]</column>
+            <column>[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:BuildingType:nk]</column>
+            <column>[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:ZipCode:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[EnergyScoreInt (groupe)]' />
+              <shape column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:ZipCode:nk]' />
+              <size column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Calculation_212302528776482817:qk]' />
+              <tooltip column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[attr:Longitude:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.0099999997764825821' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:SourceEUIWN(kBtu/sf):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[EnergyScoreInt (groupe)]' />
+              <shape column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:ZipCode:nk]' />
+              <size column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Calculation_212302528776482817:qk]' />
+              <tooltip column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[attr:Longitude:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.49375692009925842' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:SourceEUI(kBtu/sf):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[EnergyScoreInt (groupe)]' />
+              <shape column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:ZipCode:nk]' />
+              <size column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Calculation_212302528776482817:qk]' />
+              <tooltip column='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[attr:Longitude:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.49375692009925842' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:SourceEUIWN(kBtu/sf):qk] + [federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:SourceEUI(kBtu/sf):qk])</rows>
+        <cols>[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:GHGEmissionsIntensity:qk]</cols>
+      </table>
+      <simple-id uuid='{80B9DCD4-E298-4692-A3D2-6C22848C3C37}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Feuille 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[avg:Calculation_212302528776482817:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EFA4309F-EA99-49C6-AA4E-F9D7660CEEEB}' />
+    </window>
+    <window class='worksheet' name='Feuille 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{57297482-C79F-4824-89B3-A65FA01D6765}' />
+    </window>
+    <window class='worksheet' name='KWh and Energy Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='185'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='3' param='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:ZipCode:nk]' type='shape' />
+            <card pane-specification-id='3' param='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[EnergyScoreInt (groupe)]' type='color' />
+            <card pane-specification-id='3' param='[federated.1gcgmsf1qbq6ot16xb6e41i9ysxs].[none:Calculation_212302528776482817:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8A489204-8C60-463E-A845-472CB34B343A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Feuille 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A4CAC6D5-0747-4BE4-90A6-01711AA3643D}' />
+    </window>
+  </windows>
+</workbook>
